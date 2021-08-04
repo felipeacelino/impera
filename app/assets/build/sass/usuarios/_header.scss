@@ -1,0 +1,77 @@
+// Header
+.conta-header {
+  position: fixed;
+  z-index: $z_index_header;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  padding-right: 40px;
+  background: #fff;
+  border-bottom: 1px solid $cor_fundo2;
+
+  // MOBILE
+  @include mq(s) {
+    padding: 0 20px;
+  }
+}
+
+// Infos
+.conta-header-infos {
+  display: flex;
+  align-items: center;
+  color: $cor_fonte_escura;
+  font-size: 20px;
+  font-weight: 600;
+
+  // MOBILE
+  @include mq(s) {
+    font-size: 18px;
+  }
+}
+
+// Logo
+.conta-header-logo {
+  display: block;
+  width: 100px;
+  margin-right: 20px;
+
+  // MOBILE
+  @include mq(s) {
+    display: none;
+  }
+}
+
+// Links
+.conta-header-links {
+  // MOBILE
+  @include mq(s) {
+    display: none;
+  }
+
+  .btn {
+    margin-left: 10px;
+
+    i {
+      margin-right: 0px;
+      margin-left: 5px;
+    }
+  }
+}
+
+// Botão menu mobile
+.conta-header-infos .menu-btn-mobile {
+  position: relative;
+  left: 0;
+  top: 7px;
+  margin-right: 15px;
+
+  // TABLET
+  @include mq(m) {
+    display: none;
+  }
+}

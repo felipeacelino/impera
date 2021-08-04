@@ -1,0 +1,88 @@
+// Lateral
+.blog-lateral {
+  padding-left: 20px;
+  border-left: 1px solid #DDD;
+  
+  // MOBILE
+  @include mq(s) {
+    padding-left: 0px;
+    margin-top: 40px;
+    border-left: none;
+  }
+}
+
+// Categorias
+.blog-categorias {
+  float: left;
+  width: 100%;
+  margin-bottom: 40px;
+  
+  // Item
+  li {
+    float: left;
+    width: 100%; 
+    margin-bottom: 10px;
+    
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+  
+  // Link
+  a {
+    color: $cor_fonte_escura;
+    transition: .2s ease-out;
+    
+    &:hover {
+      color: $cor_primaria;
+    }
+  }
+}
+
+// Populares
+.blog-popular { 
+  float: left;
+  width: 100%; 
+}
+
+// Bloco post popular
+.bloco-post-pop {
+  position: relative;
+  float: left;
+  width: 100%; 
+  margin-bottom: 20px;
+  
+  // Foto
+  figure {
+    overflow: hidden;
+    
+    img {
+      transition: .5s ease-out;
+    }
+  }
+  &:hover figure img {
+    transform: scale(1.1);
+  }
+  
+  // Título
+  h3 {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: bold;
+    color: $cor_fonte_escura;
+    transition: .2s ease-out;
+    
+    // TABLET
+    @include mq(m) {
+      font-size: 12px;
+    }
+    
+    // MOBILE
+    @include mq(s) {
+      font-size: 16px;
+    }
+  }
+  &:hover h3 {
+    color: $cor_primaria;
+  }
+}

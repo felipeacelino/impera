@@ -1,0 +1,6 @@
+- [/imperareal/] [Wed, 30 Jun 2021 11:32:32 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------

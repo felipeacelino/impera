@@ -1,0 +1,8 @@
+- [/imperareal/admin/] [Wed, 17 Feb 2021 11:33:54 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 17 Feb 2021 11:33:54 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/login.php] [Wed, 17 Feb 2021 11:33:58 -0300]  Erro: UPDATE command denied to user 'bdimpera'@'10.129.62.42' for table 'admin_acessos'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/paginas/paginas/87fe0b7e995567e525116569a02b4e5bd976b3b9/edit/pag_para-voce-proprietario] [Wed, 17 Feb 2021 12:03:16 -0300]  Erro: UPDATE command denied to user 'bdimpera'@'10.129.62.35' for table 'paginas'
+-------------------------------------------------------------------------------------------------------------------------

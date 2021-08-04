@@ -1,0 +1,330 @@
+// Seção
+.secao-busca {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  min-height: 720px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+  // MOBILE
+  @include mq(s) {
+    height: 720px;
+    min-height: auto;
+  }
+
+  .container {
+    overflow: visible;
+    z-index: 3;
+  }
+}
+
+// Informações
+.busca-infos {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  // TABLET
+  @include mq(m) {
+    margin-top: 50px;
+  }
+
+  // MOBILE
+  @include mq(s) {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  // Título
+  h1 {
+    font-family: $fonte_geral;
+    font-size: 36px;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px rgba(#000, 0.2);
+
+    // TABLET
+    @include mq(m) {
+      font-size: 32px;
+    }
+
+    // MOBILE
+    @include mq(s) {
+      font-size: 20px;
+    }
+
+    b {
+      color: $cor_primaria;
+    }
+  }
+
+  // Subtítulo
+  h2 {
+    font-size: 22px;
+    line-height: 2;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px rgba(#000, 0.2);
+
+    b {
+      font-weight: 600;
+    }
+
+    // TABLET
+    @include mq(m) {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    // MOBILE
+    @include mq(s) {
+      font-size: 16px;
+      line-height: 1.4;
+    }
+  }
+}
+
+// Formulário
+.busca-form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  // Wrapper
+  .form-busca-inner {
+    width: 100%;
+    max-width: 720px;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+    // MOBILE
+    @include mq(s) {
+      padding: 20px;
+    }
+  }
+
+  // Campos
+  .campo-container {
+    margin-bottom: 20px;
+
+    &.mb-0 {
+      margin-bottom: 0px;
+    }
+  }
+
+  // Grupo (Alugar/Comprar)
+  .btn-group-busca {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .btn-group {
+    width: 100%;
+    max-width: 300px;
+
+    .btn {
+      width: 50%;
+      font-size: 14px;
+
+      // MOBILE
+      @include mq(s) {
+        font-size: 13px;
+      }
+    }
+  }
+
+  // Botão
+  .busca-btn {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+
+    .btn {
+      // MOBILE
+      @include mq(s) {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// Página
+.pag-anuncios {
+  .secao-busca {
+    position: relative;
+    height: auto;
+    min-height: auto;
+    margin-top: 0px;
+    background-color: $cor_primaria;
+    background-image: url("../img/bg12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    // Máscara
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba($cor_primaria, 0.9);
+    }
+  }
+  .busca-infos {
+    margin-bottom: 0px;
+
+    h1 {
+      font-size: 38px;
+
+      // TABLET
+      @include mq(m) {
+        font-size: 32px;
+      }
+
+      // MOBILE
+      @include mq(s) {
+        font-size: 26px;
+      }
+    }
+
+    h2 {
+      display: none;
+    }
+  }
+}
+
+// Dropdown
+.dropdown-busca {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  overflow: auto;
+  max-height: 510px;
+
+  // MOBILE
+  @include mq(s) {
+    max-height: 300px;
+  }
+}
+.dropdown-col {
+  padding: 10px 0;
+  border-right: 1px solid #ddd;
+
+  // MOBILE
+  @include mq(s) {
+    width: 100% !important;
+    border-right: none;
+  }
+
+  &:not(:first-child) {
+    // MOBILE
+    @include mq(s) {
+      padding-top: 0px;
+    }
+  }
+  &:not(:last-child) {
+    // MOBILE
+    @include mq(s) {
+      padding-bottom: 0px;
+    }
+  }
+}
+.dropdown-busca .dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: normal;
+
+  span:first-child {
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  span.count {
+    margin-left: 5px;
+    font-weight: normal;
+    color: $cor_fonte_clara;
+    text-align: right;
+  }
+
+  &.dest {
+    font-weight: 600;
+  }
+}
+.dropdown-categorias {
+  width: 750px;
+  column-count: 3;
+
+  // TABLET
+  @include mq(m) {
+    width: 675px;
+  }
+
+  // MOBILE
+  @include mq(s) {
+    width: 100%;
+    column-count: 1;
+  }
+
+  .dropdown-col {
+    width: 33.33%;
+
+    &:nth-child(3n) {
+      border-right: none;
+    }
+  }
+}
+.dropdown-estados {
+  width: 500px;
+  column-count: 2;
+
+  // MOBILE
+  @include mq(s) {
+    width: 100%;
+    column-count: 1;
+  }
+
+  .dropdown-col {
+    width: 50%;
+
+    &:nth-child(2n) {
+      border-right: none;
+    }
+  }
+}
+.dropdown-resultados {
+  width: 100%;
+  max-height: 300px;
+
+  .dropdown-col {
+    width: 100%;
+    border-right: none;
+  }
+}
+
+.secao-busca {
+  .select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
+    // MOBILE
+    @include mq(s) {
+      font-size: 14px;
+    }
+  }
+}
+
+// Select Valores
+.dp-busca-valores {
+  width: 200px !important;
+}

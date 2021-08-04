@@ -1,0 +1,126 @@
+// Seção
+.home-regioes {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  //background-attachment: fixed;
+
+  // Máscara
+  .mascara {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba($cor_fundo2, 0.8);
+  }
+}
+
+// Bloco
+.regiao {
+  position: relative;
+  display: block;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+// Carrosel
+.carrosel-regioes {
+  //max-height: 300px;
+
+  .regiao {
+    width: 100%;
+    margin: 5px 10px;
+  }
+}
+
+// Foto
+.regiao figure {
+  overflow: hidden;
+
+  img {
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.1s;
+  }
+}
+.regiao:hover figure img {
+  transform: scale(1.2);
+}
+
+// Máscara
+.regiao-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  background: linear-gradient(to top, rgba(#000, 0.8), transparent);
+  display: flex;
+  align-items: flex-end;
+
+  // MOBILE
+  @include mq(s) {
+    padding: 20px;
+  }
+}
+
+// Conteúdo
+.regiao-content {
+  text-align: left;
+  transition: 0.3s ease-in-out;
+
+  // DESKTOP
+  @include mq(l) {
+    transform: translateY(25px);
+  }
+}
+.regiao:hover .regiao-content {
+  // DESKTOP
+  @include mq(l) {
+    transform: translateX(0);
+  }
+}
+
+// Título
+.regiao-content h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+
+  // TABLET
+  @include mq(m) {
+    font-size: 20px;
+  }
+
+  // MOBILE
+  @include mq(s) {
+    font-size: 18px;
+  }
+}
+
+// Botão
+.regiao-content span {
+  display: block;
+  margin-top: 10px;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+  transition-delay: 0.1s;
+
+  // DESKTOP
+  @include mq(l) {
+    transform: translateY(25px);
+    opacity: 0;
+  }
+}
+.regiao:hover .regiao-content span {
+  // DESKTOP
+  @include mq(l) {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

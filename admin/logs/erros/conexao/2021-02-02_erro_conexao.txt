@@ -1,0 +1,6 @@
+-[Tue, 02 Feb 2021 20:40:36 +0100] Erro: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+Arquivo: base.class.php  - Linha: 25
+-----------------------------------------------------------------------------------------------------------------------------
+-[Tue, 02 Feb 2021 20:40:46 +0100] Erro: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+Arquivo: base.class.php  - Linha: 25
+-----------------------------------------------------------------------------------------------------------------------------

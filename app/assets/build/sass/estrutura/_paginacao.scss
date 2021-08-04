@@ -1,0 +1,48 @@
+.pagination-nav {
+  float: left;
+  width: 100%;
+
+  ul {
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 2px;
+
+    // MOBILE
+    @include mq(s) {
+      display: none;
+
+      &.prev,
+      &.next,
+      &.active {
+        display: inline-block;
+      }
+    }
+
+    &.active {
+      a {
+        background: $cor_primaria;
+        color: #fff;
+      }
+    }
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: $cor_fonte_escura;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s ease-out;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.1);
+    }
+  }
+}

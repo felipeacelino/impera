@@ -1,0 +1,105 @@
+// ------------------------------------
+//	LIB
+// ------------------------------------
+@import "lib/slick";
+@import "lib/lightbox";
+@import "lib/daterangepicker";
+@import "lib/select2.min";
+@import "lib/aos";
+
+// ------------------------------------
+//	GERAIS
+// ------------------------------------
+@import "gerais/reset";
+@import "gerais/mixins";
+@import "gerais/grid";
+@import "gerais/variaveis";
+@import "gerais/geral";
+@import "gerais/texto";
+@import "gerais/formulario";
+@import "gerais/botoes";
+@import "gerais/loading";
+@import "gerais/modal";
+@import "gerais/tabs";
+@import "gerais/tabela";
+@import "gerais/numberPicker";
+@import "gerais/dropdown";
+@import "lib/slick-theme";
+@import "lib/dropzone";
+@import "lib/timepicker";
+
+//@import "lib/flatpickr";
+
+// ------------------------------------
+//	ESTRUTURA
+// ------------------------------------
+@import "estrutura/header_full";
+@import "estrutura/menu_lateral";
+@import "estrutura/menu_mobile";
+@import "estrutura/footer";
+@import "estrutura/footer_imoveis";
+@import "estrutura/paginacao";
+@import "estrutura/manutencao";
+@import "estrutura/busca";
+@import "estrutura/fale_conosco";
+
+// ------------------------------------
+//	HOME
+// ------------------------------------
+@import "home/slide";
+@import "home/chamada";
+@import "home/blocos";
+@import "home/regioes";
+@import "home/minha_casa";
+@import "home/podemos_ajudar";
+
+// ------------------------------------
+//	INSTITUCIONAL
+// ------------------------------------
+@import "institucional/paginas";
+@import "institucional/contato";
+@import "institucional/faq";
+@import "institucional/ajuda";
+
+// ------------------------------------
+//	ANÚNCIOS
+// ------------------------------------
+@import "anuncios/pagina";
+@import "anuncios/anuncios";
+@import "anuncios/detalhe";
+@import "anuncios/det_lateral";
+@import "anuncios/det_titulo";
+@import "anuncios/det_fotos";
+@import "anuncios/det_atributos";
+@import "anuncios/det_descricao";
+@import "anuncios/det_caracteristicas";
+@import "anuncios/det_localizacao";
+@import "anuncios/det_avaliacoes";
+@import "anuncios/det_relacionados";
+@import "anuncios/det_video";
+@import "anuncios/det_documentos";
+
+// ------------------------------------
+//	VÍDEOS
+// ------------------------------------
+@import "videos/videos";
+
+// ------------------------------------
+//	BLOG
+// ------------------------------------
+@import "blog/posts";
+@import "blog/destaques";
+@import "blog/lateral";
+@import "blog/detalhe";
+
+// ------------------------------------
+//	USUÁRIOS
+// ------------------------------------
+@import "usuarios/minha_conta";
+@import "usuarios/header";
+@import "usuarios/lateral";
+@import "usuarios/footer";
+@import "usuarios/formularios";
+@import "usuarios/login";
+@import "usuarios/cadastros";
+@import "usuarios/chat";

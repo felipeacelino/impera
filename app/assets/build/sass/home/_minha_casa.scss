@@ -1,0 +1,152 @@
+// Seção
+.minha-casa {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  // MOBILE
+  @include mq(s) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  // Máscara
+  .mascara {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #54a555, #ffbd44);
+    opacity: 0.95;
+  }
+
+  .container,
+  .grid-12 {
+    position: static;
+  }
+}
+
+// Foto
+.minha-casa-foto {
+  width: 300px;
+  flex-shrink: 0;
+
+  // TABLET
+  @include mq(m) {
+    width: 200px;
+  }
+
+  // MOBILE
+  @include mq(s) {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+// Wrapper
+.minha-casa-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+  // MOBILE
+  @include mq(s) {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+
+// Textos
+.minha-casa-infos {
+  padding-left: 40px;
+  color: #fff;
+  max-width: 770px;
+
+  // MOBILE
+  @include mq(s) {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0px;
+  }
+
+  // Título
+  .titulo {
+    color: #fff;
+
+    // MOBILE
+    @include mq(s) {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    b {
+      color: #0c3f6d;
+    }
+
+    &::after {
+      background-color: rgba(#fff, 0.5);
+
+      // MOBILE
+      @include mq(s) {
+        margin: 0 auto;
+        right: 0;
+      }
+    }
+  }
+}
+
+// Texto
+.minha-casa-txt {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+
+  // MOBILE
+  @include mq(s) {
+    flex-wrap: wrap;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+
+    // MOBILE
+    @include mq(s) {
+      font-size: 16px;
+    }
+
+    b,
+    strong {
+      font-weight: 500;
+    }
+  }
+}
+
+// Botão
+.minha-casa-btn {
+  flex-shrink: 0;
+  margin-left: 20px;
+
+  // MOBILE
+  @include mq(s) {
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .btn {
+    white-space: nowrap;
+    color: #0c3f6d;
+  }
+}

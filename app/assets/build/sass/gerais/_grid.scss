@@ -1,0 +1,130 @@
+// Variáveis do grid
+$colunas: 12;
+$margens: 20px;
+$largura_desktop: 1200px;
+$largura_tablet: 760px;
+$largura_smartphone: 480px;
+
+// Mixin de media-queries
+@mixin mq($largura) {
+  @if $largura == l {
+    @media screen and (min-width: #{$largura_desktop}) {
+      @content;
+    }
+  } @else if $largura == m {
+    @media screen and (min-width: #{$largura_tablet}) and (max-width: #{$largura_desktop - 1}) {
+      @content;
+    }
+  } @else if $largura == s {
+    @media screen and (max-width: #{$largura_tablet - 1}) {
+      @content;
+    }
+  }
+}
+
+// Mixin da estrutura do grid
+@mixin grid-estrutura {
+  float: left;
+  min-height: 1px;
+  margin-left: $margens / 2;
+  margin-right: $margens / 2;
+  //border: 1px solid #f00;
+}
+
+// Mixin do container
+@mixin container {
+  max-width: $largura_desktop;
+  margin: 0px auto;
+  position: relative;
+  @include clearfix;
+
+  @include mq(m) {
+    max-width: $largura_tablet;
+  }
+
+  @include mq(s) {
+    max-width: $largura_smartphone;
+    padding-left: $margens / 2;
+    padding-right: $margens / 2;
+  }
+}
+
+// Mixin da linha
+@mixin row {
+  position: relative;
+  margin-left: -$margens/2;
+  margin-right: -$margens/2;
+  @include clearfix;
+}
+
+// Função do grid
+@function grid($coluna) {
+  $width: $coluna / $colunas * 100 + "%";
+  $result: calc(#{$width} - #{$margens});
+  @return $result;
+}
+
+.container {
+  @include container;
+}
+
+.container-full {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.row {
+  @include row;
+}
+
+[class^="grid-"] {
+  @include grid-estrutura;
+}
+
+// Gera as classes do grid GERAL
+@for $i from 1 through $colunas {
+  .grid-#{$i} {
+    width: grid($i);
+  }
+}
+.grid-2-4 {
+  width: calc(20% - 20px);
+}
+
+// Gera as classes do grid LARGE (DESKTOP)
+@include mq(l) {
+  @for $i from 1 through $colunas {
+    .grid-l-#{$i} {
+      width: grid($i);
+    }
+  }
+  .grid-l-2-4 {
+    width: calc(20% - 20px);
+  }
+}
+
+// Gera as classes do grid MEDIUM (TABLET)
+@include mq(m) {
+  @for $i from 1 through $colunas {
+    .grid-m-#{$i} {
+      width: grid($i);
+    }
+  }
+  .grid-m-2-4 {
+    width: calc(20% - 20px);
+  }
+}
+
+// Gera as classes do grid SMALL (SMARTPHONE)
+@include mq(s) {
+  @for $i from 1 through $colunas {
+    .grid-s-#{$i} {
+      width: grid($i);
+    }
+  }
+  .grid-s-2-4 {
+    width: calc(20% - 20px);
+  }
+}

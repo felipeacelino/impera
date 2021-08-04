@@ -1,0 +1,20 @@
+- [/imperareal/admin/] [Sat, 10 Apr 2021 15:58:10 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Sat, 10 Apr 2021 15:58:10 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Sat, 10 Apr 2021 15:58:10 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Sat, 10 Apr 2021 15:58:10 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Sat, 10 Apr 2021 15:58:10 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Sat, 10 Apr 2021 15:58:10 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Sat, 10 Apr 2021 15:58:17 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Sat, 10 Apr 2021 15:58:17 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Sat, 10 Apr 2021 15:58:17 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Sat, 10 Apr 2021 15:58:17 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------

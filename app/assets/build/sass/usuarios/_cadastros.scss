@@ -1,0 +1,84 @@
+// Página
+.pg-cad {
+  background: linear-gradient(to bottom, $cor_fundo2, transparent);
+}
+
+// Formulários
+.cad-form-container {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -270px;
+
+  // MOBILE
+  @include mq(s) {
+    margin-top: -200px;
+  }
+}
+// Grupo (Bloco)
+.cad-form-group {
+  float: left;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  padding: 40px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin-bottom: 20px;
+
+  // MOBILE
+  @include mq(s) {
+    padding: 20px;
+  }
+
+  // Título
+  > h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: $cor_fonte_escura;
+    margin-bottom: 20px;
+
+    // MOBILE
+    @include mq(s) {
+      font-size: 20px;
+    }
+
+    span {
+      display: block;
+      font-size: 18px;
+      font-weight: normal;
+      color: $cor_fonte_clara;
+
+      b {
+        color: $cor_fonte_escura;
+      }
+    }
+  }
+}
+// Separator
+.cad-form-separator {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 15px;
+  background: rgba(#000, 0.1);
+}
+
+// Campo característica
+.campo-container.cr-container.cad-caract {
+  float: left;
+  width: 50%;
+  margin-bottom: 0;
+  padding: 0 10px;
+
+  // MOBILE
+  @include mq(s) {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+// Botões
+.cad-form-btns {
+  float: left;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,198 @@
+// Barra principal
+.fdx-menu.lateral {
+  float: right;
+  clear: both;
+  text-align: left;
+
+  // MOBILE
+  @include mq(s) {
+    display: none;
+  }
+
+  li {
+    float: left;
+    position: relative;
+  }
+
+  // Links geral
+  a:not(.btn) {
+    display: inline-block;
+    width: 100%;
+    font-family: $fonte_geral;
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 300;
+    text-transform: none;
+    transition: 0.3s ease-out;
+
+    // TABLET
+    @include mq(m) {
+      font-size: 14px;
+    }
+
+    &:hover {
+      color: lighten($cor_secundaria, 10%);
+    }
+  }
+}
+
+// 1 Level
+.lateral .fdx-menu-1-level {
+  float: left;
+  width: 100%;
+
+  // Item
+  > li {
+    line-height: 0;
+    padding: 0 14px;
+
+    // TABLET
+    @include mq(m) {
+      padding: 0 9px;
+
+      float: none;
+      display: inline-block;
+    }
+
+    // Remove o padding do primeiro item
+    &:first-child {
+      padding-left: 0px;
+    }
+
+    // Remove o padding do último item
+    &:last-child {
+      padding-right: 0px;
+    }
+
+    // Link
+    > a:not(.btn) {
+      position: relative;
+      z-index: 2;
+      color: $cor_fonte_escura;
+      text-transform: none;
+
+      // TABLET
+      @include mq(m) {
+        display: none;
+      }
+    }
+
+    // Botão
+    &.dest {
+      padding: 0;
+    }
+    .btn {
+      margin-top: -13px;
+      padding: 12px 25px;
+
+      // TABLET
+      @include mq(m) {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// 2 Level
+.lateral .fdx-menu-2-level {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 1;
+  width: 230px;
+  padding: 10px 0;
+  border-radius: 8px;
+  background: $cor_fundo2;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  opacity: 0;
+  visibility: hidden;
+  transform: scaleY(0) translate3d(0, -10px, 0);
+  transform-origin: top left;
+  transition: 0.3s ease;
+
+  // Ponta
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -9px;
+    left: 30px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent $cor_fundo2 transparent;
+  }
+  &::after {
+    content: "";
+    display: none;
+    position: absolute;
+    z-index: -1;
+    top: -25px;
+    left: 0;
+    width: 100%;
+    height: 25px;
+  }
+
+  &.right {
+    left: initial;
+    right: 0;
+    top: 40px;
+  }
+  &.right::before {
+    top: -9px;
+    left: initial;
+    right: 72px;
+  }
+
+  &.fdx-menu-2-level-login {
+    width: 200px;
+  }
+
+  // Item
+  li {
+    float: left;
+    width: 100%;
+
+    // Link
+    a:not(.btn) {
+      padding: 12px 20px;
+      color: $cor_fonte_escura;
+
+      &:hover {
+        padding-left: 25px;
+        color: $cor_secundaria;
+        background: darken($cor_fundo2, 2%);
+      }
+    }
+  }
+}
+.lateral .fdx-menu-1-level > li:hover > .fdx-menu-2-level {
+  opacity: 1;
+  visibility: visible;
+  transform: scaleY(1) translate3d(0, 0, 0);
+
+  &::after {
+    display: block;
+  }
+}
+
+// 3 Level
+.lateral .fdx-menu-3-level {
+  position: absolute;
+  top: -10px;
+  right: -250px;
+  width: 250px;
+  padding: 10px 0;
+  background: $cor_primaria;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-20px, 0);
+  transition: 0.3s ease;
+}
+.lateral .fdx-menu-2-level > li:hover > .fdx-menu-3-level {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, 0);
+}

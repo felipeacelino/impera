@@ -1,0 +1,82 @@
+.number-picker {
+  float: left;
+  width: 100%;
+  margin-bottom: 5px;
+
+  p {
+    float: left;
+    padding-top: 3px;
+    color: $cor_fonte_escura;
+    font-weight: 600;
+  }
+}
+.number-picker-input {
+  float: right;
+  text-align: right;
+  user-select: none;
+
+  p {
+    float: left;
+    padding-top: 3px;
+    color: $cor_fonte_escura;
+    font-weight: 600;
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+
+    i {
+      font-size: 20px;
+      color: lighten($cor_primaria, 5%);
+      transition: 0.2s;
+
+      &:hover {
+        color: $cor_primaria;
+      }
+    }
+
+    &.disabled {
+      cursor: default;
+
+      i {
+        color: rgba(#000, 0.2);
+      }
+    }
+  }
+
+  input {
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: $cor_fonte_escura;
+    text-align: center;
+    background: none;
+  }
+}
+
+.campo-container:not(.dropdown) {
+  .number-picker {
+    > p {
+      color: $cor_fonte_clara;
+
+      // DESKTOP
+      @include mq(l) {
+        margin-right: 20px;
+      }
+    }
+  }
+  .number-picker-input {
+    // DESKTOP
+    @include mq(l) {
+      float: left;
+    }
+  }
+}

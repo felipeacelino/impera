@@ -1,0 +1,24 @@
+- [/imperareal/imoveis] [Wed, 31 Mar 2021 16:23:59 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Wed, 31 Mar 2021 16:24:27 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Wed, 31 Mar 2021 17:19:55 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Wed, 31 Mar 2021 17:25:20 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Wed, 31 Mar 2021 17:26:58 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Wed, 31 Mar 2021 17:43:16 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 31 Mar 2021 17:54:44 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 31 Mar 2021 17:54:44 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 31 Mar 2021 17:54:48 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 31 Mar 2021 17:54:48 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Wed, 31 Mar 2021 19:23:06 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/acoes/app/proprietario/cadastro.php] [Wed, 31 Mar 2021 20:25:34 -0300]  Erro: Unknown column 'facebook_id' in 'field list'
+-------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,30 @@
+- [/imperareal/] [Mon, 10 May 2021 11:13:08 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 10 May 2021 11:28:00 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 10 May 2021 15:11:52 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 10 May 2021 15:14:45 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 10 May 2021 15:15:01 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------

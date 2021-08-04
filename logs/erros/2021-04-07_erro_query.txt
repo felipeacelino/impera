@@ -1,0 +1,80 @@
+- [/imperareal/admin/] [Wed, 07 Apr 2021 10:46:39 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 10:46:39 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 10:46:39 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 10:46:39 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 10:46:39 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 10:46:39 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 10:46:39 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 10:46:39 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 10:46:39 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 10:46:39 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 10:46:39 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 10:46:39 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 07 Apr 2021 10:46:44 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 07 Apr 2021 10:46:44 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 07 Apr 2021 10:46:44 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 07 Apr 2021 10:46:44 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 07 Apr 2021 15:41:04 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 07 Apr 2021 15:41:04 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 07 Apr 2021 15:41:04 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 07 Apr 2021 15:41:04 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 18:42:27 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 18:42:27 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 18:42:27 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 18:42:27 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 18:42:27 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 18:42:27 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 07 Apr 2021 18:42:34 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 07 Apr 2021 18:42:34 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 07 Apr 2021 18:42:34 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 07 Apr 2021 18:42:34 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios_reservas/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Wed, 07 Apr 2021 18:57:22 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/acoes/admin/anuncios/retorna_datas_editar_reserva.php?anuncio_id=undefined&reserva_id=undefined&_=1617832643307] [Wed, 07 Apr 2021 18:57:25 -0300]  Erro: Table 'elloscom_impera.anuncios_datas_indisponiveis' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 18:57:38 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 18:57:38 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 18:57:38 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 18:57:38 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 19:03:06 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 19:03:06 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 19:03:06 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 07 Apr 2021 19:03:06 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,100 @@
+- [/imperareal/] [Mon, 26 Apr 2021 11:25:01 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Mon, 26 Apr 2021 11:25:03 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Mon, 26 Apr 2021 11:25:03 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Mon, 26 Apr 2021 11:25:03 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Mon, 26 Apr 2021 11:25:03 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Mon, 26 Apr 2021 11:25:03 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Mon, 26 Apr 2021 11:25:03 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Mon, 26 Apr 2021 11:25:11 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Mon, 26 Apr 2021 11:25:11 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Mon, 26 Apr 2021 11:25:11 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Mon, 26 Apr 2021 11:25:11 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Mon, 26 Apr 2021 11:25:38 -0300]  Erro: Table 'elloscom_impera.anuncios_destinos' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Mon, 26 Apr 2021 11:25:38 -0300]  Erro: Table 'elloscom_impera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/insert] [Mon, 26 Apr 2021 11:25:40 -0300]  Erro: Table 'elloscom_impera.anuncios_destinos' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/insert] [Mon, 26 Apr 2021 11:25:40 -0300]  Erro: Table 'elloscom_impera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Mon, 26 Apr 2021 11:26:02 -0300]  Erro: Table 'elloscom_impera.anuncios_destinos' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Mon, 26 Apr 2021 11:26:02 -0300]  Erro: Table 'elloscom_impera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Mon, 26 Apr 2021 11:26:06 -0300]  Erro: Table 'elloscom_impera.anuncios_destinos' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Mon, 26 Apr 2021 11:26:06 -0300]  Erro: Table 'elloscom_impera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/insert] [Mon, 26 Apr 2021 11:28:36 -0300]  Erro: Table 'elloscom_impera.anuncios_destinos' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/insert] [Mon, 26 Apr 2021 11:28:36 -0300]  Erro: Table 'elloscom_impera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 26 Apr 2021 14:39:07 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 26 Apr 2021 14:39:10 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 26 Apr 2021 14:52:35 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 26 Apr 2021 15:01:50 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 26 Apr 2021 15:02:34 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 26 Apr 2021 15:42:47 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 26 Apr 2021 19:30:32 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 26 Apr 2021 19:35:35 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 26 Apr 2021 19:36:45 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------

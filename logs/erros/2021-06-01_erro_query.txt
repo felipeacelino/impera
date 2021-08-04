@@ -1,0 +1,42 @@
+- [/imperareal/] [Tue, 01 Jun 2021 11:58:03 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Tue, 01 Jun 2021 12:51:01 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Tue, 01 Jun 2021 14:05:14 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Tue, 01 Jun 2021 14:12:03 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Tue, 01 Jun 2021 14:12:28 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Tue, 01 Jun 2021 16:48:31 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Tue, 01 Jun 2021 17:05:36 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 26
+-------------------------------------------------------------------------------------------------------------------------

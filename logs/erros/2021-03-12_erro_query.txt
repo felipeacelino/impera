@@ -1,0 +1,6 @@
+- [/imperareal/imoveis] [Fri, 12 Mar 2021 09:46:44 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Fri, 12 Mar 2021 09:46:55 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Fri, 12 Mar 2021 09:51:05 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------

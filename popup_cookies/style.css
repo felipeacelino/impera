@@ -1,0 +1,91 @@
+.popup-cookie,
+.popup-cookie * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.popup-cookie {
+  position: fixed;
+  z-index: 99999;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  color: #3c4758;
+  visibility: hidden;
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.popup-cookie.active {
+  visibility: visible;
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+}
+.popup-cookie-texto {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  line-height: 1.4;
+}
+.popup-cookie-texto b,
+.popup-cookie-texto strong {
+  font-weight: bold;
+}
+.popup-cookie-texto a {
+  color: #00acbb;
+  text-decoration: none;
+}
+.popup-cookie-texto a:hover {
+  text-decoration: underline;
+}
+.popup-cookie-btn-container {
+  padding-left: 20px;
+}
+.popup-cookie-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #7f277a;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .popup-cookie {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+  }
+  .popup-cookie-btn-container {
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+  .popup-cookie-btn {
+    font-size: 14px;
+  }
+}

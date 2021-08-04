@@ -1,0 +1,226 @@
+// Slide
+.slide-home {
+  float: left;
+  width: 100%;
+
+  // Modifica as cetas do SLICK para o slide
+  .slick-prev,
+  .slick-next {
+    width: 80px;
+
+    // MOBILE
+    @include mq(s) {
+      width: 50px;
+    }
+
+    &::before {
+      height: 30px;
+      width: 30px;
+
+      // MOBILE
+      @include mq(s) {
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
+  .slick-dots {
+    bottom: 10px;
+  }
+}
+
+// Slide ITEM (Background Image)
+.slide-item {
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  text-align: center;
+
+  &[href="#"] {
+    cursor: default;
+  }
+
+  // Slide IMAGEM
+  .slide-image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 720px;
+
+    // MOBILE
+    @include mq(s) {
+      height: 720px;
+      min-height: auto;
+    }
+  }
+}
+// Slide ITEM (Imagem padrão) OBS: Está desabilitado por padrão
+.slide-item-auto {
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  text-align: center;
+
+  &[href="#"] {
+    cursor: default;
+  }
+
+  // Slide IMAGEM
+  .slide-image {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+}
+
+// Slide MÁSCARA
+.slide-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(darken($cor_terciaria, 10%), 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Slide CONTEÚDO
+.slide-content {
+  width: 100%;
+  max-width: $largura_desktop;
+  padding: 0 10px;
+  text-align: center;
+  display: none;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  // TABLET
+  @include mq(m) {
+    max-width: $largura_tablet;
+  }
+
+  // MOBILE
+  @include mq(s) {
+    max-width: $largura_smartphone;
+    padding: 0 20px;
+  }
+
+  &.left {
+    text-align: left;
+
+    // MOBILE
+    @include mq(s) {
+      text-align: center;
+    }
+  }
+}
+
+// Slide TÍTULO
+.slide-titulo {
+  color: #fff;
+  font-family: $fonte_titulo;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 2px rgba(#000, 0.2);
+
+  // TABLET
+  @include mq(m) {
+    font-size: 24px;
+  }
+
+  // MOBILE
+  @include mq(s) {
+    font-size: 20px;
+  }
+}
+
+// Slide TEXTO
+.slide-texto {
+  color: #fff;
+  font-family: $fonte_geral;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  text-shadow: 2px 2px 2px rgba(#000, 0.2);
+
+  // TABLET
+  @include mq(m) {
+    font-size: 18px;
+  }
+
+  // MOBILE
+  @include mq(s) {
+    font-size: 16px;
+  }
+}
+
+// Slide BOTÃO
+.slide-btn {
+  text-align: center;
+  margin-top: 20px;
+
+  .btn {
+    // MOBILE
+    @include mq(s) {
+      font-size: 12px;
+      padding: 12px 25px;
+    }
+  }
+}
+.slide-content.left .slide-btn {
+  text-align: left;
+
+  // MOBILE
+  @include mq(s) {
+    text-align: center;
+  }
+}
+
+@-webkit-keyframes slide-fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes slide-fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.slide-fadeInUp {
+  -webkit-animation-name: slide-fadeInUp;
+  animation-name: slide-fadeInUp;
+}

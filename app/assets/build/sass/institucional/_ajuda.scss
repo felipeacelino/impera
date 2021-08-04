@@ -1,0 +1,38 @@
+.segura-btns-ajuda {
+    .btn {
+        width: 47%;
+        float: left;
+        margin-bottom: 20px;
+        margin-right: 10px;
+
+        // MOBILE
+        @include mq(s) {
+            width: 100%;
+        }
+    }
+}
+
+.border-bottom {
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid rgb(236, 230, 230);
+
+    // TABLET
+    @include mq(m) {
+        flex-direction: column;
+    }
+
+    // MOBILE
+    @include mq(s) {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    &:last-child {
+        border: none;
+    }
+}

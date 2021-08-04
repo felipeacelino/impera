@@ -1,0 +1,66 @@
+- [/imperareal/] [Tue, 22 Jun 2021 12:35:21 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 22 Jun 2021 12:35:22 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 22 Jun 2021 12:35:22 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 22 Jun 2021 12:35:22 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 22 Jun 2021 12:35:22 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 22 Jun 2021 12:35:22 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 22 Jun 2021 12:35:22 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 22 Jun 2021 12:35:35 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 22 Jun 2021 12:35:35 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 22 Jun 2021 12:35:35 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 22 Jun 2021 12:35:35 -0300]  Erro: Table 'elloscom_impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 22 Jun 2021 12:35:38 -0300]  Erro: Table 'elloscom_impera.anuncios_destinos' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 22 Jun 2021 12:35:38 -0300]  Erro: Table 'elloscom_impera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Tue, 22 Jun 2021 14:58:20 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Tue, 22 Jun 2021 15:05:27 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Tue, 22 Jun 2021 15:05:35 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Tue, 22 Jun 2021 15:30:51 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Tue, 22 Jun 2021 16:07:38 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Tue, 22 Jun 2021 16:17:11 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------

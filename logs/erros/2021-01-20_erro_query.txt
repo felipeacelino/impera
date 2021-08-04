@@ -1,0 +1,4 @@
+- [/imperareal/admin/] [Wed, 20 Jan 2021 12:34:15 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Wed, 20 Jan 2021 12:34:15 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------

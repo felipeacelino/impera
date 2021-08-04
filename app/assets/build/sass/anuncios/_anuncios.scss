@@ -1,0 +1,209 @@
+// Lista de anúncios
+.anuncios-lista {
+  // MOBILE
+  @include mq(s) {
+    text-align: center;
+  }
+}
+
+// Bloco anúncio
+.bloco-anuncio {
+  position: relative;
+  display: block;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid darken($cor_fundo2, 5%);
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background: lighten($cor_fundo2, 5%);
+    border-color: darken($cor_fundo2, 10%);
+  }
+}
+
+// Carrosel de anúncios
+.carrosel-anuncios {
+  //max-height: 500px;
+
+  .bloco-anuncio {
+    width: 100%;
+    margin: 5px 10px;
+  }
+
+  .bloco-anuncio-fotos {
+    // DESKTOP
+    @include mq(l) {
+      height: 193px;
+    }
+
+    // TABLET
+    @include mq(m) {
+      height: 240px;
+    }
+  }
+}
+
+// Fotos
+.bloco-anuncio-fotos {
+  position: relative;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}
+
+// Setas carrosel (Fotos)
+.bloco-anuncio-fotos {
+  .slick-prev,
+  .slick-next {
+    width: 50px;
+    transition: 0.3s ease-in-out;
+  }
+  .slick-prev::before,
+  .slick-next::before {
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid rgba(#fff, 1);
+    border-right: 2px solid rgba(#fff, 1);
+  }
+  .slick-prev {
+    left: 0;
+    background: linear-gradient(
+      to right,
+      rgba(#000, 0.3),
+      transparent
+    ) !important;
+
+    // DESKTOP
+    @include mq(l) {
+      transform: translateX(-100%);
+    }
+  }
+  .slick-next {
+    right: 0;
+    background: linear-gradient(
+      to left,
+      rgba(#000, 0.3),
+      transparent
+    ) !important;
+
+    // DESKTOP
+    @include mq(l) {
+      transform: translateX(100%);
+    }
+  }
+  &:hover .slick-prev,
+  &:hover .slick-next {
+    // DESKTOP
+    @include mq(l) {
+      transform: translateX(0);
+    }
+  }
+}
+
+// Informações
+.bloco-anuncio-infos {
+  display: block;
+  padding: 10px 15px;
+  color: $cor_fonte_clara;
+  line-height: 1.4;
+  text-align: left;
+}
+
+// Tag wrapper
+.bloco-anuncio-tag-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+// Tag
+.bloco-anuncio-tag {
+  display: inline-flex;
+  background-color: rgba($cor_secundaria, 0.2);
+  color: darken($cor_secundaria, 10%);
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+// Tipo
+.bloco-anuncio-tipo {
+  font-size: 12px;
+  font-weight: 600;
+  //@include truncate(100%);
+}
+
+// Título
+.bloco-anuncio-titulo {
+  font-size: 15px;
+  font-weight: 600;
+  color: $cor_fonte_escura;
+  margin-bottom: 5px;
+  transition: 0.2s ease-in-out;
+  @include truncate(100%);
+}
+.bloco-anuncio:hover .bloco-anuncio-titulo {
+  color: $cor_secundaria;
+}
+
+// Cidade
+.bloco-anuncio-cidade {
+  font-size: 14px;
+  font-weight: 400;
+  color: $cor_fonte_escura;
+  margin-bottom: 10px;
+}
+
+// Características
+.bloco-anuncio-caracs {
+  margin-bottom: 10px;
+  white-space: nowrap;
+
+  li {
+    display: inline-block;
+    font-size: 13px;
+
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+
+    i {
+      color: darken($cor_secundaria, 5%);
+    }
+
+    b {
+      color: darken($cor_secundaria, 5%);
+      font-weight: 500;
+    }
+  }
+
+  // Separador
+  /* li + li::before {
+    content: "•";
+    display: inline-block;
+    margin: 0 5px;
+  } */
+}
+
+// Valor
+.bloco-anuncio-valor {
+  font-size: 15px;
+  color: $cor_fonte_escura;
+
+  b {
+    font-weight: bold;
+    color: darken($cor_secundaria, 10%);
+  }
+
+  small {
+    font-size: 12px;
+    font-weight: 600;
+    color: $cor_fonte_clara;
+  }
+}

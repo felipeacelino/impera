@@ -1,0 +1,198 @@
+- [/imperareal/] [Thu, 17 Jun 2021 08:48:58 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 11:08:05 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 16:07:10 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 16:57:41 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 16:57:51 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 16:58:44 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 17:05:25 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 17:11:18 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 17:14:01 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 17:23:22 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 17:45:03 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 17:45:59 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 17:52:55 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 17:53:01 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 17:54:08 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 17:59:58 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 18:06:21 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 18:12:36 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 18:13:54 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 18:16:53 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 18:16:55 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 19:30:25 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 19:32:02 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 19:32:52 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 19:37:17 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 19:40:20 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 19:50:45 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 19:51:17 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 19:51:35 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 19:53:26 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 19:53:52 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 20:00:24 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Thu, 17 Jun 2021 20:03:58 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------

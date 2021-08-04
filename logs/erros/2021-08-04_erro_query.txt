@@ -1,0 +1,14 @@
+- [/imperareal/admin/index.php] [Wed, 04 Aug 2021 00:54:42 -0300]  Erro: Table 'impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 04 Aug 2021 00:54:42 -0300]  Erro: Table 'impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 04 Aug 2021 00:54:42 -0300]  Erro: Table 'impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Wed, 04 Aug 2021 00:54:42 -0300]  Erro: Table 'impera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios_reservas/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Wed, 04 Aug 2021 00:55:24 -0300]  Erro: Table 'impera.locatarios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios_reservas/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Wed, 04 Aug 2021 00:55:24 -0300]  Erro: Table 'impera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/acoes/admin/anuncios/retorna_datas_editar_reserva.php?anuncio_id=undefined&reserva_id=undefined&_=1628049324484] [Wed, 04 Aug 2021 00:55:24 -0300]  Erro: Table 'impera.anuncios_datas_indisponiveis' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------

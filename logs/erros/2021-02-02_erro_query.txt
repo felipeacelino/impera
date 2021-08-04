@@ -1,0 +1,20 @@
+- [/imperareal/admin/] [Tue, 02 Feb 2021 16:25:17 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 02 Feb 2021 16:25:17 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 02 Feb 2021 16:25:17 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 02 Feb 2021 16:25:17 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/login.php] [Tue, 02 Feb 2021 16:25:24 -0300]  Erro: UPDATE command denied to user 'bdimpera'@'10.129.62.35' for table 'admin_acessos'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/blocos_home/blocos_home/87fe0b7e995567e525116569a02b4e5bd976b3b9/edit/1] [Tue, 02 Feb 2021 16:26:11 -0300]  Erro: UPDATE command denied to user 'bdimpera'@'10.129.62.35' for table 'blocos_home'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/blocos_home/blocos_home/87fe0b7e995567e525116569a02b4e5bd976b3b9/edit/1] [Tue, 02 Feb 2021 16:26:22 -0300]  Erro: UPDATE command denied to user 'bdimpera'@'10.129.62.35' for table 'blocos_home'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/blocos_home/blocos_home/87fe0b7e995567e525116569a02b4e5bd976b3b9/edit/1] [Tue, 02 Feb 2021 16:27:45 -0300]  Erro: UPDATE command denied to user 'bdimpera'@'10.129.62.35' for table 'blocos_home'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/blocos_home/blocos_home/87fe0b7e995567e525116569a02b4e5bd976b3b9/edit/1] [Tue, 02 Feb 2021 16:27:50 -0300]  Erro: UPDATE command denied to user 'bdimpera'@'10.129.62.35' for table 'blocos_home'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/blocos_home/blocos_home/87fe0b7e995567e525116569a02b4e5bd976b3b9/edit/1] [Tue, 02 Feb 2021 16:28:25 -0300]  Erro: UPDATE command denied to user 'bdimpera'@'10.129.62.35' for table 'blocos_home'
+-------------------------------------------------------------------------------------------------------------------------

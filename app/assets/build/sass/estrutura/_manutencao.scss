@@ -1,0 +1,26 @@
+.manutencao {
+	text-align: center;
+
+	.manutencao-img {
+		display: inline-block;
+		margin-top: 40px;
+		max-width: 300px;
+	}
+
+	h2 {
+		font-family: $fonte_titulo;
+		color: $cor_fonte_escura;
+		font-size: 28px;
+		text-transform: uppercase;
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	h3 {
+		font-family: $fonte_geral;
+		color: $cor_fonte_clara;
+		font-size: 18px;
+	}
+}
+
+

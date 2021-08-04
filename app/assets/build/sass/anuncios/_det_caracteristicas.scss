@@ -1,0 +1,41 @@
+// Seção
+.anuncio-det-caracteristicas {
+  float: left;
+  width: 100%;
+}
+
+// Lista
+.anuncio-det-caracteristicas-lista {
+  display: flex;
+  flex-wrap: wrap;
+
+  // Item
+  li {
+    display: flex;
+    width: 33.33%;
+    color: $cor_fonte_escura;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+
+    // MOBILE
+    @include mq(s) {
+      width: 100%;
+      padding-right: 0px;
+    }
+
+    &:last-child {
+      // MOBILE
+      @include mq(s) {
+        margin-bottom: 0px;
+      }
+    }
+
+    i {
+      flex-shrink: 0;
+      color: $cor_secundaria;
+      margin-right: 5px;
+      margin-top: 3px;
+    }
+  }
+}

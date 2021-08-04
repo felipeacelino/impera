@@ -1,0 +1,6 @@
+- [/imperareal/] [Fri, 07 May 2021 18:04:21 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT ' at line 25
+-------------------------------------------------------------------------------------------------------------------------

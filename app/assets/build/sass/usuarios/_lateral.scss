@@ -1,0 +1,164 @@
+// Lateral
+.conta-lateral {
+  position: fixed;
+  z-index: $z_index_menu;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  background: $cor_primaria;
+  padding-top: 60px;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  // MOBILE
+  @include mq(s) {
+    display: none;
+  }
+}
+
+// Header
+.conta-lateral-header {
+  padding: 20px;
+  text-align: center;
+  background-color: darken($cor_primaria, 5%);
+}
+
+// Foto
+.conta-lateral-header-foto {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  overflow: hidden;
+}
+
+// Nome
+.conta-lateral-header-nome {
+  color: #fff;
+  font-weight: 600;
+  @include truncate(100%);
+}
+
+// E-mail
+.conta-lateral-header-email {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  //word-wrap: break-word !important;
+  @include truncate(100%);
+}
+
+// Menu links
+.conta-lateral-menu {
+  background-color: #fbfbfb;
+}
+.conta-lateral-menu li {
+  background-color: $cor_primaria;
+  padding-left: 10px;
+
+  &.empty-item {
+    height: 25px;
+  }
+}
+.conta-lateral-menu a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 12px 19px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  color: #fff;
+  transition: color 0.3s;
+
+  &[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &:hover,
+  &.destaque {
+    color: #ddd;
+
+    i {
+      color: $cor_secundaria;
+    }
+  }
+}
+.conta-lateral-menu li.active {
+  background-color: $cor_primaria;
+
+  a {
+    background-color: #fbfbfb;
+    font-weight: 500;
+    color: $cor_fonte_escura;
+
+    i {
+      color: $cor_secundaria;
+    }
+  }
+}
+.conta-lateral-menu li.top {
+  border-bottom-right-radius: 25px;
+
+  a {
+    border-bottom-right-radius: 25px;
+    padding-bottom: 20px;
+  }
+}
+.conta-lateral-menu li.bottom {
+  border-top-right-radius: 25px;
+
+  a {
+    border-top-right-radius: 25px;
+    padding-top: 20px;
+  }
+}
+
+// Ícone
+.conta-lateral-menu a i {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+// Contador
+.contador {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  background: $cor_primaria;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+  &.success {
+    background: $success_color;
+  }
+  &.warning {
+    background: $warning_color;
+  }
+  &.error {
+    background: $error_color;
+  }
+  &.info {
+    background: $success_color;
+  }
+}
+
+// Menu mobile header
+.cd-dropdown-header .conta-lateral-header {
+  border-bottom: none;
+  padding: 0px;
+}

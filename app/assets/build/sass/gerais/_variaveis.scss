@@ -1,0 +1,39 @@
+// Cores do site
+$cor_primaria: #7f277a;
+$cor_secundaria: #00acbb;
+$cor_terciaria: #8792a5;
+
+// Fundo 2 (Cor alternativa para o fundo do site)
+$cor_fundo2: #eaecf1;
+$cor_fundo3: darken($cor_fundo2, 5%);
+
+// Status
+$success_color: #3daf57;
+$warning_color: #ffbb33;
+$error_color: #fa353d;
+
+// Redes socias
+$cor_facebook: #3b5998;
+$cor_twitter: #1da1f2;
+$cor_youtube: #fe0000;
+$cor_instagram: #c12595;
+$cor_twitter: #1da1f2;
+$cor_tripadvisor: rgb(171, 179, 165);
+
+// Fonte títulos
+$fonte_titulo: "Cinzel", serif;
+// Fonte texto (Padrão)
+$fonte_geral: "Poppins", "Helvetica", "Arial", sans-serif;
+
+// Cores dos textos
+$cor_fonte_escura: #3c4758;
+$cor_fonte_clara: #757e8d;
+
+// Z-index (Z-INDEX de cada elemento do layout)
+$z_index_geral: 2;
+$z_index_menu: 4;
+$z_index_header: 5;
+$z_index_gotop: 5;
+$z_index_menu_mobile: 6;
+$z_index_modal: 7;
+$z_index_mascara: 8;

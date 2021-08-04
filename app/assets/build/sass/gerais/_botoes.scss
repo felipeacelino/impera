@@ -1,0 +1,425 @@
+// Botão padrão
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  background: $cor_fundo2;
+  border: 1px solid $cor_fundo2;
+  border-radius: 10px;
+  font-family: $fonte_geral;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0.025em;
+  text-transform: none;
+  color: $cor_fonte_escura;
+  text-align: center;
+  padding: 15px 30px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+
+  &:hover {
+    background: darken($cor_fundo2, 10%);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px rgba($cor_terciaria, 0.3);
+  }
+
+  // Inativo
+  &[disabled] {
+    opacity: 0.5;
+    cursor: default;
+  }
+
+  i:not(.m-0) {
+    margin-right: 10px;
+  }
+
+  // Outline
+  &.outline {
+    background: none;
+    color: $cor_terciaria;
+
+    &:hover,
+    &.active {
+      background: darken($cor_fundo2, 5%);
+      color: $cor_fonte_escura;
+    }
+  }
+
+  // Botão primário
+  &.active,
+  &.btn-primario {
+    background: $cor_primaria;
+    border-color: $cor_primaria;
+    color: #fff;
+
+    &:hover {
+      background: darken($cor_primaria, 10%);
+      border-color: darken($cor_primaria, 10%);
+    }
+
+    // Outline
+    &.outline {
+      background: none;
+      color: $cor_primaria;
+
+      &:hover {
+        background: $cor_primaria;
+        color: #fff;
+      }
+    }
+  }
+
+  // Botão secundário
+  &.btn-secundario {
+    background: $cor_secundaria;
+    border-color: $cor_secundaria;
+    color: #fff;
+
+    &:hover,
+    &.active {
+      background: darken($cor_secundaria, 10%);
+      border-color: darken($cor_secundaria, 10%);
+    }
+
+    // Outline
+    &.outline {
+      background: none;
+      color: $cor_secundaria;
+
+      &:hover,
+      &.active {
+        background: $cor_secundaria;
+        color: #fff;
+      }
+    }
+  }
+
+  // Botão terciário
+  &.btn-terciario {
+    background: $cor_terciaria;
+    border-color: $cor_terciaria;
+    color: #fff;
+
+    &:hover,
+    &.active {
+      background: darken($cor_terciaria, 10%);
+      border-color: darken($cor_terciaria, 10%);
+    }
+
+    // Outline
+    &.outline {
+      background: none;
+      color: $cor_fonte_escura;
+
+      &:hover,
+      &.active {
+        background: $cor_terciaria;
+        color: #fff;
+      }
+    }
+  }
+
+  // Botão branco
+  &.btn-white {
+    background: #fff;
+    border-color: #fff;
+    color: $cor_primaria;
+
+    &:hover,
+    &.active {
+      background: $cor_fundo2;
+      border-color: $cor_fundo2;
+    }
+
+    // Outline
+    &.outline {
+      background: none;
+      color: #fff;
+
+      &:hover,
+      &.active {
+        background: #fff;
+        border-color: #fff;
+        color: $cor_primaria;
+      }
+    }
+  }
+
+  // Facebook
+  &.btn-facebook {
+    border-color: $cor_facebook;
+    background: $cor_facebook;
+    color: #fff;
+
+    &:hover,
+    &.active {
+      border-color: darken($cor_facebook, 10%);
+      background: darken($cor_facebook, 10%);
+    }
+
+    // Outline
+    &.outline {
+      background: none;
+      color: $cor_facebook;
+
+      &:hover,
+      &.active {
+        background: $cor_facebook;
+        color: #fff;
+      }
+    }
+
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  // Botão remover
+  &.btn-rem {
+    border-color: $error_color;
+    background: $error_color;
+    color: #fff;
+
+    &:hover,
+    &.active {
+      border-color: darken($error_color, 10%);
+      background: darken($error_color, 10%);
+    }
+
+    // Outline
+    &.outline {
+      background: none;
+      color: $error_color;
+
+      &:hover,
+      &.active {
+        background: $error_color;
+        color: #fff;
+      }
+    }
+  }
+
+  // Botão warning
+  &.btn-warning {
+    border-color: $warning_color;
+    background: $warning_color;
+    color: #fff;
+
+    &:hover,
+    &.active {
+      border-color: darken($warning_color, 10%);
+      background: darken($warning_color, 10%);
+    }
+
+    // Outline
+    &.outline {
+      background: none;
+      color: $warning_color;
+
+      &:hover,
+      &.active {
+        background: $warning_color;
+        color: #fff;
+      }
+    }
+  }
+
+  // Botão success
+  &.btn-success {
+    border-color: $success_color;
+    background: $success_color;
+    color: #fff;
+
+    &:hover,
+    &.active {
+      border-color: darken($success_color, 10%);
+      background: darken($success_color, 10%);
+    }
+
+    // Outline
+    &.outline {
+      background: none;
+      color: $success_color;
+
+      &:hover,
+      &.active {
+        background: $success_color;
+        color: #fff;
+      }
+    }
+  }
+
+  // Botão muito pequeno
+  &.btn-xs {
+    padding: 7px 15px;
+    font-size: 12px;
+  }
+
+  // Botão pequeno
+  &.btn-sm {
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  // Botão grande
+  &.btn-lg {
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+
+  // Botão full
+  &.btn-full {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+// Botão container
+.btn-container {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+
+  &.left {
+    text-align: left;
+  }
+
+  &.right {
+    text-align: right;
+  }
+}
+
+// Pulse
+.btn-pulse {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: rgba(#000, 0.1);
+    border-radius: 12px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation-duration: 0.7s;
+    opacity: 0;
+  }
+  &:hover::before {
+    animation-name: btn-pulse;
+  }
+
+  // Botão primário
+  &.btn-primario::before {
+    background: rgba($cor_primaria, 0.5);
+  }
+
+  // Botão secundário
+  &.btn-secundario::before {
+    background: rgba($cor_secundaria, 0.5);
+  }
+
+  // Botão terciário
+  &.btn-terciario::before {
+    background: rgba($cor_terciaria, 0.5);
+  }
+
+  // Botão branco
+  &.btn-white::before {
+    background: rgba(#fff, 0.5);
+  }
+}
+@keyframes btn-pulse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    top: -7px;
+    right: -7px;
+    bottom: -7px;
+    left: -7px;
+    opacity: 0;
+  }
+}
+
+// ------------------------------------
+// Grupo
+// ------------------------------------
+
+// Container
+.btn-group {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+
+  // Botões
+  .btn {
+    margin: 0px;
+    white-space: nowrap;
+
+    // Mobile
+    @include mq(s) {
+      @include truncate(100%);
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 14px;
+    }
+  }
+  .btn:not(:first-child):not(:last-child) {
+    border-radius: 0px;
+  }
+  .btn:first-child {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .btn:last-child {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  &.full {
+    width: 100%;
+  }
+  &.full .btn {
+    flex: 1;
+  }
+}
+.btn-group-toggle {
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    position: absolute;
+  }
+}
+
+// Arrow
+.arrow {
+  display: inline-block !important;
+  vertical-align: middle;
+  transition: 0.3s ease-in-out;
+
+  &.left {
+    margin-right: 5px;
+  }
+
+  &.right {
+    margin-left: 5px;
+  }
+}
+.arrow-hvr:hover .arrow.left,
+.btn:hover .arrow.left {
+  transform: translateX(-5px);
+}
+.arrow-hvr:hover .arrow.right,
+.btn:hover .arrow.right {
+  transform: translateX(5px);
+}

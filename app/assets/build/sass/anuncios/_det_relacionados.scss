@@ -1,0 +1,9 @@
+// Seção
+.anuncio-det-relacionados {
+  margin-top: 20px;
+
+  // MOBILE
+  @include mq(s) {
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,46 @@
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 14:38:49 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 14:39:03 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 14:39:05 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 14:39:09 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 14:39:10 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 14:39:11 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 15:24:46 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 15:25:39 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 15:25:41 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 15:26:36 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 15:26:42 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 15:26:47 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Thu, 01 Apr 2021 16:42:45 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Thu, 01 Apr 2021 16:44:02 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Thu, 01 Apr 2021 17:37:55 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 17:43:15 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 17:43:19 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 17:43:22 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 17:43:24 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 17:43:26 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 17:43:28 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 17:43:30 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Thu, 01 Apr 2021 17:43:31 -0300]  Erro: Table 'bdimpera.anuncios_categorias' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,12 @@
+// Footer imóveis
+.footer-imoveis {
+  float: left;
+  width: 100%;
+  padding: 20px;
+  align-self: flex-end;
+  background: $cor_fundo2;
+  border-top: 1px solid $cor_fundo3;
+  font-size: 15px;
+  text-align: center;
+  color: $cor_fonte_escura;
+}

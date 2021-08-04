@@ -1,0 +1,403 @@
+// Título
+.titulo {
+  float: left;
+  width: 100%;
+  position: relative;
+  font-size: 28px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: $cor_fonte_escura;
+  text-align: center;
+  text-transform: none;
+  margin-bottom: 40px;
+
+  // TABLET
+  @include mq(m) {
+    font-size: 26px;
+  }
+
+  // MOBILE
+  @include mq(s) {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  b {
+    color: $cor_primaria;
+  }
+
+  // Linha inferior
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    margin: 0 auto;
+    width: 100px;
+    height: 2px;
+    background: $cor_primaria;
+
+    // MOBILE
+    @include mq(s) {
+      bottom: -10px;
+    }
+  }
+
+  // Alinhado à esquerda
+  &.left {
+    text-align: left;
+  }
+  &.left::after {
+    margin: 0;
+    right: initial;
+    left: 0;
+  }
+
+  // Alinhado à direita
+  &.right {
+    text-align: right;
+  }
+  &.right::after {
+    margin: 0;
+    left: initial;
+    right: 0;
+  }
+
+  .count {
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: $cor_primaria;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+
+    // MOBILE
+    @include mq(s) {
+      position: static;
+      width: 25px;
+      height: 25px;
+      font-size: 16px;
+    }
+  }
+
+  &.no-line {
+    margin-bottom: 20px;
+
+    &::after {
+      display: none;
+    }
+  }
+}
+
+// Banner título
+.banner-titulo {
+  float: left;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 70px 10px;
+
+  // MOBILE
+  @include mq(s) {
+    padding: 40px 10px;
+    padding-bottom: 55px;
+  }
+
+  &.with-btn {
+    // MOBILE
+    @include mq(s) {
+      padding-bottom: 40px;
+    }
+    .titulo {
+      // MOBILE
+      @include mq(s) {
+        padding-left: 60px;
+        text-align: left;
+      }
+
+      &::after {
+        // MOBILE
+        @include mq(s) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  // Máscara
+  .mascara {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba($cor_primaria, 0.8);
+  }
+
+  .titulo {
+    color: #fff;
+    margin: 0;
+    //text-shadow: 2px 2px 2px rgba(#000, 0.2);
+
+    &::after {
+      background-color: rgba(#fff, 0.5);
+    }
+  }
+
+  .btn-container {
+    margin-top: 40px;
+
+    // MOBILE
+    @include mq(s) {
+      margin-top: 30px;
+    }
+
+    .btn {
+      // MOBILE
+      @include mq(s) {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// Subtítulo
+.subtitulo {
+  float: left;
+  width: 100%;
+  position: relative;
+  font-family: $fonte_geral;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: $cor_fonte_escura;
+  margin-bottom: 20px;
+
+  // MOBILE
+  @include mq(s) {
+    font-size: 18px;
+  }
+
+  &.center {
+    text-align: center;
+  }
+}
+.subtitulo-line {
+  position: relative;
+
+  span {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    background: #fff;
+    padding-right: 20px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, $cor_fundo2, transparent);
+  }
+}
+
+// Texto geral
+.texto {
+  font-family: $fonte_geral;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $cor_fonte_clara;
+
+  &.center {
+    text-align: center;
+  }
+
+  b,
+  strong {
+    font-weight: 600;
+    color: $cor_fonte_escura;
+  }
+
+  // Unresets para CKEDITOR
+  em {
+    font-style: italic !important;
+  }
+  ul:not(.blocos-faq) {
+    list-style: disc outside none !important;
+    padding-left: 15px;
+  }
+  ol {
+    list-style: decimal outside none !important;
+    padding-left: 15px;
+  }
+  ul:not(.blocos-faq) li {
+    margin-bottom: 10px;
+  }
+  p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  img {
+    display: inline-block;
+  }
+  /*  img.left {
+    margin-right: 20px;
+  } */
+
+  // Links
+  a:not(.btn) {
+    color: $cor_secundaria;
+
+    // MOBILE
+    @include mq(s) {
+      //word-break: break-all;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: $cor_fonte_escura;
+    margin-bottom: 20px;
+
+    // TABLET
+    @include mq(m) {
+      font-size: 20px;
+    }
+
+    // MOBILE
+    @include mq(s) {
+      font-size: 18px;
+    }
+  }
+  &.inst h2 {
+    font-size: 20px;
+    color: $cor_primaria;
+
+    // MOBILE
+    @include mq(s) {
+      font-size: 18px;
+    }
+  }
+
+  blockquote {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: $cor_fundo2;
+    color: $cor_fonte_escura;
+
+    p:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+// Texto (Sem registros)
+.empty {
+  text-align: center;
+  min-height: 100px;
+
+  span {
+    font-family: $fonte_geral;
+    font-size: 24px;
+    color: $cor_fonte_escura;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-family: $fonte_geral;
+    color: $cor_fonte_clara;
+  }
+
+  b {
+    font-weight: bold;
+    color: $cor_fonte_escura;
+  }
+}
+
+// Links
+a,
+a:hover,
+a:visited,
+a:focus,
+a:active {
+  outline: none;
+  text-decoration: none;
+}
+.link {
+  transition: 0.2s;
+  color: $cor_secundaria;
+
+  &:active,
+  &:focus,
+  &:visited {
+    color: $cor_secundaria;
+  }
+
+  &:hover {
+    color: $cor_primaria !important;
+  }
+}
+
+// Subtítulo seção
+.subtitulo-secao {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 300;
+  color: $cor_fonte_escura;
+
+  // MOBILE
+  @include mq(s) {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  br {
+    // MOBILE
+    @include mq(s) {
+      display: none;
+    }
+  }
+
+  // Left
+  &.left {
+    text-align: left;
+  }
+
+  // Right
+  &.right {
+    text-align: right;
+  }
+
+  b,
+  strong {
+    font-weight: 600;
+  }
+}
+
+.subtitulo-pag {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}

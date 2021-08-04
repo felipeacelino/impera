@@ -1,0 +1,157 @@
+// Detalhe
+.post-detalhe {
+  // Título
+  .post-detalhe-titulo {
+    font-family: $fonte_geral;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: $cor_fonte_escura;
+    margin-bottom: 20px;
+
+    // TABLET
+    @include mq(m) {
+      font-size: 28px;
+    }
+
+    // MOBILE
+    @include mq(s) {
+      font-size: 20px;
+    }
+  }
+}
+// Autor e Data
+.post-detalhe-data {
+  font-size: 18px;
+  font-weight: 300;
+  color: $cor_fonte_escura;
+
+  // MOBILE
+  @include mq(s) {
+    font-size: 14px;
+  }
+
+  b {
+    font-weight: 600;
+  }
+}
+
+.post-detalhe-share {
+  margin-top: -10px;
+
+  // MOBILE
+  @include mq(s) {
+    margin-top: 10px;
+  }
+}
+
+// Foto
+.post-detalhe-foto {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  overflow: hidden;
+
+  // MOBILE
+  @include mq(s) {
+    margin-bottom: 10px;
+  }
+}
+
+// Texto
+.post-detalhe-texto {
+  .texto {
+    /* font-size: 18px;
+    font-weight: 300;
+    color: $cor_fonte_escura;
+
+    b,
+    strong {
+      color: $cor_fonte_escura;
+      font-weight: 600;
+    } */
+
+    // MOBILE
+    /*  @include mq(s) {
+      font-size: 16px;
+    } */
+  }
+}
+
+// Comentários
+.blog-comentarios {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid $cor_fundo2;
+
+  .subtitulo {
+    // MOBILE
+    @include mq(s) {
+      text-align: center;
+    }
+  }
+
+  // Botão
+  .btn-container {
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 20px;
+
+    // MOBILE
+    @include mq(s) {
+      margin-top: 0px;
+      text-align: center;
+    }
+  }
+}
+
+// Lista comentários
+.blog-comentarios-lista {
+  float: left;
+  width: 100%;
+
+  // Comentário
+  .blog-comentario {
+    position: relative;
+    float: left;
+    width: 100%;
+    background: $cor_fundo2;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    // Nome
+    .blog-comentario-nome {
+      font-size: 16px;
+      color: $cor_fonte_escura;
+      font-weight: 600;
+    }
+
+    // Data
+    .blog-comentario-data {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      color: $cor_primaria;
+    }
+
+    // Texto
+    .blog-comentario-texto {
+      color: $cor_fonte_escura;
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+
+  .blog-comentario-empty {
+    font-size: 18px;
+    color: $cor_fonte_escura;
+
+    // MOBILE
+    @include mq(s) {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+}

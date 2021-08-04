@@ -1,0 +1,44 @@
+// ------------------------------------
+//	MIXINS E FUNÇÕES
+// -----------------------------------
+
+// Mixin de clearfix
+@mixin clearfix {
+  &::after,
+  &::before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// Cor do placeholder
+@mixin placeholder($cor) {
+  &::placeholder {
+    color: $cor !important;
+  }
+  &::-webkit-input-placeholder {
+    color: $cor !important;
+  }
+  &:-moz-placeholder {
+    color: $cor !important;
+  }
+  &::-moz-placeholder {
+    color: $cor !important;
+  }
+  &:-ms-input-placeholder {
+    color: $cor !important;
+  }
+}
+
+// ------------------------------------
+// Limita texto (Obs: Somente para linha única)
+// ------------------------------------
+@mixin truncate($limit, $ellipsis: true) {
+  max-width: $limit;
+  white-space: nowrap;
+  overflow: hidden;
+  @if $ellipsis {
+    text-overflow: ellipsis;
+  }
+}

@@ -1,0 +1,90 @@
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:39:15 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:39:16 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:39:17 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:39:18 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Mon, 22 Mar 2021 10:39:53 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Mon, 22 Mar 2021 10:39:53 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Mon, 22 Mar 2021 10:39:54 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Mon, 22 Mar 2021 10:39:54 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:41:08 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:45:09 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:47:33 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:47:52 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:48:09 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:48:53 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:49:35 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:49:46 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:53:55 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 10:54:13 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 11:26:59 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 12:49:07 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios_comodos2/87fe0b7e995567e525116569a02b4e5bd976b3b9/view/] [Mon, 22 Mar 2021 12:50:54 -0300]  Erro: Table 'bdimpera.anuncios_comodos2' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios_comodos2/87fe0b7e995567e525116569a02b4e5bd976b3b9/view/] [Mon, 22 Mar 2021 12:50:54 -0300]  Erro: Table 'bdimpera.anuncios_comodos2' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios_comodos2/87fe0b7e995567e525116569a02b4e5bd976b3b9/insert] [Mon, 22 Mar 2021 12:51:45 -0300]  Erro: Table 'bdimpera.anuncios_comodos2' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 12:53:03 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 13:02:02 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 13:02:18 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 13:02:56 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 13:05:44 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 13:07:38 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 13:07:58 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 13:08:06 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 13:08:23 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 13:10:15 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 13:10:37 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 13:11:38 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 13:59:37 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 17:34:28 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 18:19:27 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 18:20:29 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 18:20:48 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 18:24:32 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 18:26:41 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 18:30:34 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 18:55:21 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Mon, 22 Mar 2021 18:58:05 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------

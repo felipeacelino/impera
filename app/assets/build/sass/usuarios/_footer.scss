@@ -1,0 +1,17 @@
+// Footer
+.conta-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  height: 60px;
+  background: #fff;
+  border-top: 1px solid $cor_fundo2;
+  font-size: 14px;
+
+  // MOBILE
+  @include mq(s) {
+    height: 70px;
+  }
+}

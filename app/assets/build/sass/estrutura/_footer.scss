@@ -1,0 +1,379 @@
+// Footer geral
+.footer {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-top: 40px;
+  background: #fff;
+  margin-top: -1px;
+  overflow: hidden;
+
+  // MOBILE
+  @include mq(s) {
+    padding-bottom: 0px;
+  }
+}
+
+// Conteúdo container
+.footer-content {
+  margin-bottom: 40px;
+}
+
+// Coluna
+.footer-bloco {
+  &:not(:last-child) {
+    // MOBILE
+    @include mq(s) {
+      margin-bottom: 40px;
+    }
+  }
+
+  // Título
+  > h2 {
+    font-family: $fonte_geral;
+    color: $cor_fonte_escura;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: none;
+    margin-bottom: 20px;
+
+    // MOBILE
+    @include mq(s) {
+      font-size: 20px;
+    }
+  }
+
+  // Lista links
+  .footer-lista {
+    // Item
+    li {
+      float: left;
+      width: 100%;
+      margin-bottom: 15px;
+      font-family: $fonte_geral;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.2;
+      color: $cor_fonte_escura;
+
+      &:last-child {
+        margin-bottom: 0px;
+      }
+
+      // TABLET
+      @include mq(m) {
+        width: 100%;
+      }
+
+      // MOBILE
+      @include mq(s) {
+        width: 100%;
+      }
+    }
+
+    // Link
+    a {
+      color: $cor_fonte_escura;
+      transition: 0.2s ease-out;
+
+      &:hover {
+        color: $cor_secundaria;
+      }
+    }
+
+    // Ícone
+    i {
+      margin-right: 10px;
+    }
+  }
+}
+
+// Logo
+.footer-logo {
+  padding-right: 30px;
+  text-align: center;
+
+  // MOBILE
+  @include mq(s) {
+    padding-right: 0px;
+  }
+
+  .logo {
+    display: inline-block;
+    width: 100%;
+
+    // MOBILE
+    @include mq(s) {
+      width: 250px;
+    }
+  }
+
+  .texto {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: $cor_fonte_escura;
+  }
+}
+
+// Mapa do site
+.footer-mapa {
+}
+
+// Newsletter
+.footer-newsletter {
+  padding-right: 40px;
+
+  // TABLET
+  @include mq(m) {
+    padding-right: 20px;
+  }
+
+  // MOBILE
+  @include mq(s) {
+    padding-right: 0px;
+  }
+
+  // Texto
+  .texto {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: $fonte_geral;
+    color: $cor_fonte_escura;
+    margin-bottom: 20px;
+  }
+
+  // Campo
+  .campo-container {
+    width: 100%;
+    margin-bottom: 10px;
+
+    // Campo
+    .campo {
+      /* border: none;
+      background: darken($cor_fundo2, 5%);
+      border-radius: 25px;
+      padding-left: 20px;
+      padding-right: 20px;
+      @include placeholder($cor_fonte_escura); */
+    }
+  }
+
+  // Botão
+  .btn {
+    width: 100%;
+  }
+}
+
+// Atendimento
+.footer-atendimento {
+  padding-left: 40px;
+
+  // TABLET
+  @include mq(m) {
+    padding-left: 20px;
+  }
+
+  // MOBILE
+  @include mq(s) {
+    padding-left: 0px;
+  }
+
+  .footer-lista li {
+    width: 100%;
+  }
+}
+
+// Barra footer
+.barra-footer {
+  background: rgba($cor_fundo2, 0.5);
+  padding: 20px 0;
+  font-family: $fonte_geral;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: $cor_fonte_escura;
+
+  /* [class^="grid-"]:not(.redes-sociais) {
+    padding-top: 10px;
+  } */
+
+  // Copyright
+  .copyright {
+    text-align: center;
+  }
+
+  // Desenvolvimento
+  .development {
+    text-align: right;
+
+    // MOBILE
+    @include mq(s) {
+      text-align: center;
+    }
+
+    a {
+      color: $cor_fonte_escura !important;
+    }
+  }
+}
+
+// Redes sociais
+.redes-sociais {
+  width: 100%;
+  text-align: center;
+
+  // MOBILE
+  @include mq(s) {
+    text-align: center;
+  }
+
+  // Item
+  a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 2px;
+    background: $cor_primaria;
+    border: 1px solid $cor_primaria;
+    transition: 0.3s ease-out;
+
+    &:hover {
+      background: transparent;
+    }
+
+    i {
+      color: #fff;
+      font-size: 20px;
+      transition: 0.3s ease-out;
+    }
+    &:hover i {
+      color: $cor_primaria;
+    }
+  }
+}
+
+// Voltar ao topo
+.gotop {
+  position: fixed;
+  z-index: $z_index_gotop;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba($cor_primaria, 0.8);
+  cursor: pointer;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  transform: translate3d(0, 20px, 0);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-out;
+
+  &:hover {
+    background: rgba($cor_primaria, 1);
+  }
+
+  &.active {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+    transform: rotate(45deg);
+    border-bottom: none;
+    border-right: none;
+    margin-top: 20px;
+  }
+}
+
+// Contatos laterais
+.contatos-laterais {
+  position: fixed;
+  z-index: $z_index_gotop;
+  top: 40%;
+  right: 20px;
+  /* transform: translate3d(20px, 0, 0);
+  opacity: 0;
+  visibility: hidden; */
+  transition: 0.3s ease-out;
+
+  // MOBILE
+  @include mq(s) {
+    top: inherit;
+    right: inherit;
+    left: 15px;
+    bottom: 40px;
+    transform: translate3d(0, 20px, 0);
+  }
+
+  /* &.active {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    visibility: visible;
+  } */
+
+  // Item
+  > a {
+    position: relative;
+    display: inline-block;
+    margin: 5px 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #00ce6e;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+
+    // MOBILE
+    @include mq(s) {
+      margin: 0 5px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: rgba(#00ce6e, 0.5);
+      opacity: 0;
+    }
+    &:hover::before {
+      animation: contatos-pulse 0.5s;
+    }
+  }
+}
+@keyframes contatos-pulse {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}

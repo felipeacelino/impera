@@ -1,0 +1,82 @@
+// Seção
+.anuncio-det-descricao {
+  float: left;
+  width: 100%;
+}
+
+.anuncio-det-doc {
+  display: flex;
+  align-items: center;
+
+  // MOBILE
+  @include mq(s) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  figure {
+    flex-shrink: 0;
+    width: 220px;
+    margin-right: 20px;
+
+    // MOBILE
+    @include mq(s) {
+      margin-right: 0px;
+      width: 180px;
+    }
+  }
+
+  .anuncio-det-doc-infos {
+    text-align: left;
+
+    // MOBILE
+    @include mq(s) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .titulo {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 30px;
+
+    // MOBILE
+    @include mq(s) {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    &::after {
+      // DESKTOP
+      @include mq(l) {
+        right: initial;
+        margin: 0;
+      }
+
+      // TABLET
+      @include mq(m) {
+        right: initial;
+        margin: 0;
+      }
+    }
+  }
+
+  .texto {
+    color: $cor_fonte_escura;
+
+    // MOBILE
+    @include mq(s) {
+      font-size: 15px;
+    }
+  }
+
+  .btn {
+    margin-top: 20px;
+
+    // MOBILE
+    @include mq(s) {
+      margin-top: 15px;
+    }
+  }
+}

@@ -1,0 +1,261 @@
+// Lateral wrapper
+.anuncio-lateral-wrp {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 30%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -80px;
+
+  // TABLET
+  @include mq(m) {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  // MOBILE
+  @include mq(s) {
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+
+// Lateral
+.anuncio-lateral {
+  border: none;
+  box-shadow: 0 0 15px rgba(#000, 0.1);
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+// Valor
+.anuncio-lateral-valores {
+  padding: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+
+  // MOBILE
+  @include mq(s) {
+    padding: 20px;
+  }
+}
+.anuncio-lateral-valores-lbl {
+  font-size: 16px;
+  font-weight: normal;
+  color: $cor_fonte_escura;
+}
+.anuncio-lateral-valores-n {
+  font-size: 28px;
+  font-weight: bold;
+  color: $cor_fonte_escura;
+
+  // MOBILE
+  @include mq(s) {
+    font-size: 24px;
+  }
+
+  span {
+    display: inline-block;
+    font-size: 0.65em;
+    font-weight: normal;
+  }
+}
+.anuncio-lateral-valores-list {
+  margin-top: 20px;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+
+    span:first-child {
+      text-align: left;
+    }
+    span:last-child {
+      color: $cor_fonte_escura;
+      text-align: right;
+    }
+
+    &.dest {
+      border-top: 1px solid $cor_fundo3;
+      padding-top: 7px;
+
+      span:first-child {
+        font-weight: 600;
+        color: $cor_fonte_escura;
+      }
+      span:last-child {
+        font-weight: bold;
+        color: $cor_fonte_escura;
+      }
+    }
+
+    i {
+      vertical-align: middle;
+      font-size: 1.2em;
+      color: $cor_secundaria;
+      opacity: 0.7;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+.anuncio-lateral-valores-renda {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: $cor_fundo2;
+  color: $cor_fonte_escura;
+  font-size: 15px;
+
+  i {
+    margin-right: 10px;
+    font-size: 32px;
+    color: $cor_terciaria;
+  }
+
+  b {
+    font-weight: 600;
+  }
+}
+
+// Botões
+.anuncio-lateral-btns {
+  padding: 30px;
+  padding-top: 0px;
+
+  // MOBILE
+  @include mq(s) {
+    padding: 20px;
+    padding-top: 0px;
+  }
+
+  small {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: $cor_fonte_escura;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  // Botão principal
+  .btn-primario {
+    margin-bottom: 10px;
+  }
+}
+
+// Âncora Fixa (Mobile)
+#reserva-mobile-sec {
+  display: block;
+  float: left;
+  width: 100%;
+}
+.anuncio-det-anchor {
+  position: fixed;
+  z-index: 3;
+  bottom: 0px;
+  left: 0px;
+  padding: 20px;
+  text-align: left;
+  transform: translateY(100%);
+  transition: 0.3s;
+
+  &.active {
+    transform: translateY(0);
+  }
+
+  // DESKTOP
+  @include mq(l) {
+    display: none;
+  }
+
+  .btn {
+    //width: 100%;
+    padding: 12px 18px;
+    font-size: 14px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+    i {
+      font-size: 1.2em;
+    }
+  }
+}
+
+// AGENDAMENTO
+.radio-box-container {
+  float: left;
+  width: 100%;
+  text-align: center;
+
+  > label {
+    margin-bottom: 5px;
+  }
+}
+.radio-box-list {
+  //padding-bottom: 20px;
+}
+.radio-box-item {
+  margin: 0 5px;
+}
+.radio-box-item input {
+  display: none;
+}
+.radio-box-wrp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 0.75em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 0.2s;
+  cursor: pointer;
+  color: $cor_fonte_escura;
+
+  &:hover {
+    background-color: $cor_fundo2;
+  }
+
+  /* &.day {
+    width: 75px;
+  } */
+}
+.radio-box-item input:checked + .radio-box-wrp {
+  background-color: $cor_primaria;
+  color: #fff;
+}
+.radio-box-item.disabled .radio-box-wrp {
+  cursor: default;
+  opacity: 0.3;
+
+  &:hover {
+    background-color: #fff;
+  }
+}
+.radio-box-dest {
+  font-size: 1.5em;
+  line-height: 100%;
+  font-weight: bold;
+}
+.radio-box-sub {
+  font-weight: 500;
+  font-size: 0.8em;
+}
+.radio-box-text {
+  font-size: 18px;
+  font-weight: 500;
+}

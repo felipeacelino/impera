@@ -1,0 +1,60 @@
+- [/imperareal/] [Mon, 28 Jun 2021 09:08:11 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 28 Jun 2021 14:03:50 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 28 Jun 2021 15:38:52 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 28 Jun 2021 16:56:30 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 28 Jun 2021 17:36:20 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 28 Jun 2021 17:59:29 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 28 Jun 2021 18:54:33 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 28 Jun 2021 19:00:41 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 28 Jun 2021 19:10:45 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/] [Mon, 28 Jun 2021 19:11:00 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+  AND a.destaque=1
+  AND a.status=1
+  AND p.status=1
+  AND (SELECT count(f.id)' at line 26
+-------------------------------------------------------------------------------------------------------------------------

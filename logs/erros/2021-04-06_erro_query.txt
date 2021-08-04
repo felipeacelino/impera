@@ -1,0 +1,266 @@
+- [/imperareal/admin/] [Tue, 06 Apr 2021 10:48:46 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 06 Apr 2021 10:48:46 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 06 Apr 2021 10:48:46 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 06 Apr 2021 10:48:47 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 06 Apr 2021 10:48:47 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 06 Apr 2021 10:48:47 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 06 Apr 2021 10:48:48 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 06 Apr 2021 10:48:48 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 06 Apr 2021 10:48:48 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 06 Apr 2021 10:48:48 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 06 Apr 2021 10:48:48 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Tue, 06 Apr 2021 10:48:48 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 11:44:11 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 11:44:11 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 11:44:11 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 11:44:11 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/1/update] [Tue, 06 Apr 2021 11:44:30 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/1/update] [Tue, 06 Apr 2021 11:45:40 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/1/update] [Tue, 06 Apr 2021 11:45:48 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/1/update] [Tue, 06 Apr 2021 11:46:41 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/1/update] [Tue, 06 Apr 2021 11:46:45 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/1/update] [Tue, 06 Apr 2021 11:47:27 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/1/update] [Tue, 06 Apr 2021 11:47:28 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/1/update] [Tue, 06 Apr 2021 11:49:47 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/1/update] [Tue, 06 Apr 2021 11:49:55 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/1/update] [Tue, 06 Apr 2021 11:49:56 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 11:50:09 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 11:50:25 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 11:50:50 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 11:50:51 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 11:52:20 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 11:52:59 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 11:53:35 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 11:53:43 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 11:58:21 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 11:59:27 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/acoes/app/proprietario/anuncio_fotos.php] [Tue, 06 Apr 2021 11:59:34 -0300]  Erro: Unknown column 'id_anuncio' in 'field list'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/acoes/app/proprietario/anuncio_fotos.php] [Tue, 06 Apr 2021 11:59:34 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 11:59:36 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 12:00:02 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 12:00:47 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 12:00:47 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 12:00:47 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 12:00:47 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 12:00:48 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/acoes/app/proprietario/anuncio_fotos.php] [Tue, 06 Apr 2021 12:01:08 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 12:01:10 -0300]  Erro: Unknown column 'id_anuncio' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 12:03:20 -0300]  Erro: Unknown column 'ordem' in 'order clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 12:03:22 -0300]  Erro: Unknown column 'ordem' in 'order clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 12:03:44 -0300]  Erro: Unknown column 'ordem' in 'order clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 12:03:55 -0300]  Erro: Unknown column 'ordem' in 'order clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 12:04:02 -0300]  Erro: Unknown column 'ordem' in 'order clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 12:04:11 -0300]  Erro: Unknown column 'ordem' in 'order clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/anuncio_fotos/3/update] [Tue, 06 Apr 2021 12:04:55 -0300]  Erro: Unknown column 'ordem' in 'order clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Tue, 06 Apr 2021 12:37:19 -0300]  Erro: Subquery returns more than 1 row
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Tue, 06 Apr 2021 12:37:21 -0300]  Erro: Subquery returns more than 1 row
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Tue, 06 Apr 2021 12:37:22 -0300]  Erro: Subquery returns more than 1 row
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Tue, 06 Apr 2021 12:37:22 -0300]  Erro: Subquery returns more than 1 row
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Tue, 06 Apr 2021 12:37:22 -0300]  Erro: Subquery returns more than 1 row
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/proprietario/inicio] [Tue, 06 Apr 2021 12:37:53 -0300]  Erro: Subquery returns more than 1 row
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 14:03:09 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 14:03:09 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 14:03:09 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 14:03:09 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 14:03:12 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 14:03:13 -0300]  Erro: Table 'bdimpera.anuncios_reservas' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 14:03:13 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/index.php] [Tue, 06 Apr 2021 14:03:13 -0300]  Erro: Table 'bdimpera.anuncios_reservas_valores' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 06 Apr 2021 14:03:15 -0300]  Erro: Table 'bdimpera.anuncios_destinos' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 06 Apr 2021 14:03:15 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/edit/3] [Tue, 06 Apr 2021 14:03:21 -0300]  Erro: Table 'bdimpera.anuncios_destinos' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/edit/3] [Tue, 06 Apr 2021 14:03:21 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 06 Apr 2021 14:15:57 -0300]  Erro: Table 'bdimpera.anuncios_destinos' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 06 Apr 2021 14:15:57 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 06 Apr 2021 14:18:33 -0300]  Erro: Table 'bdimpera.anuncios_destinos' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 06 Apr 2021 14:18:33 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 06 Apr 2021 14:18:56 -0300]  Erro: Table 'bdimpera.anuncios_destinos' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 06 Apr 2021 14:18:56 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 06 Apr 2021 15:11:37 -0300]  Erro: Table 'bdimpera.anuncios_destinos' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 06 Apr 2021 15:11:37 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 15:46:52 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 15:51:44 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT 20 LIMIT 0, 30' at line 21
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:03:20 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT 20 LIMIT 0, 30' at line 21
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:03:46 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT 20 LIMIT 0, 30' at line 21
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:03:49 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT 20 LIMIT 0, 30' at line 21
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:03:52 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT 20 LIMIT 0, 30' at line 21
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:03:54 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT 20 LIMIT 0, 30' at line 21
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:05:45 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT 20 LIMIT 0, 30' at line 21
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:05:59 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND a.status=1
+  AND p.status=1
+ORDER BY a.id DESC LIMIT 20 LIMIT 0, 30' at line 21
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:06:18 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:06:20 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:06:29 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:06:33 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:06:51 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:06:52 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:07:24 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:07:27 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:07:32 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:07:59 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:08:00 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:08:06 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:08:56 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:08:57 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:08:58 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:09:00 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:09:01 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis] [Tue, 06 Apr 2021 16:09:08 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 30' at line 23
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 06 Apr 2021 18:11:48 -0300]  Erro: Table 'bdimpera.anuncios_destinos' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/anuncios/anuncios/87fe0b7e995567e525116569a02b4e5bd976b3b9/view] [Tue, 06 Apr 2021 18:11:48 -0300]  Erro: Table 'bdimpera.anuncios_condominios' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis?ordena=&finalidade=venda&cidade=&bairro=&tipo=&valor_venda=&valor_aluguel=&valor_condominio_iptu=&area=&quartos=&banheiros=&vagas=&proximo_metro=1&proximo_brt=1&proximo_trem=1&possui_elevador=1&mobiliado=1&aceita_pet=1&sol=tarde&orientacao=fundos] [Tue, 06 Apr 2021 18:33:06 -0300]  Erro: Unknown column 'f.id' in 'field list'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis?ordena=&finalidade=venda&cidade=&bairro=&tipo=&valor_venda=&valor_aluguel=&valor_condominio_iptu=&area=&quartos=&banheiros=&vagas=&proximo_metro=1&proximo_brt=1&proximo_trem=1&possui_elevador=1&mobiliado=1&aceita_pet=1&sol=tarde&orientacao=fundos] [Tue, 06 Apr 2021 18:33:36 -0300]  Erro: Unknown column 'total_fotos' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis?ordena=&finalidade=aluguel&cidade=&bairro=&tipo=10&valor_venda=&valor_aluguel=&valor_condominio_iptu=&area=&quartos=&banheiros=&vagas=&proximo_metro=0&proximo_brt=0&proximo_trem=0&possui_elevador=0&mobiliado=0&aceita_pet=0&orientacao=&seguranca%5B%5D=2&seguranca%5B%5D=4] [Tue, 06 Apr 2021 19:01:02 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as ON as.anuncio_id=a.id
+WHERE
+  a.status=1
+  AND p.status=1
+  AND (SELECT count' at line 27
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis?ordena=&finalidade=aluguel&cidade=&bairro=&tipo=10&valor_venda=&valor_aluguel=&valor_condominio_iptu=&area=&quartos=&banheiros=&vagas=&proximo_metro=0&proximo_brt=0&proximo_trem=0&possui_elevador=0&mobiliado=0&aceita_pet=0&orientacao=&seguranca%5B%5D=4&seguranca%5B%5D=8] [Tue, 06 Apr 2021 19:01:11 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as ON as.anuncio_id=a.id
+WHERE
+  a.status=1
+  AND p.status=1
+  AND (SELECT count' at line 27
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis?ordena=&finalidade=aluguel&cidade=&bairro=&tipo=10&valor_venda=&valor_aluguel=&valor_condominio_iptu=&area=&quartos=&banheiros=&vagas=&proximo_metro=0&proximo_brt=0&proximo_trem=0&possui_elevador=0&mobiliado=0&aceita_pet=0&orientacao=&comodidades%5B%5D=4&comodidades%5B%5D=8&comodidades%5B%5D=12&seguranca%5B%5D=4] [Tue, 06 Apr 2021 19:02:01 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as ON as.anuncio_id=a.id
+WHERE
+  a.status=1
+  AND p.status=1
+  AND (SELECT count' at line 27
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis?regiao=2] [Tue, 06 Apr 2021 19:36:59 -0300]  Erro: Table 'bdimpera.regioes' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis?regiao=2] [Tue, 06 Apr 2021 19:37:01 -0300]  Erro: Table 'bdimpera.regioes' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis?regiao=2] [Tue, 06 Apr 2021 19:37:12 -0300]  Erro: Table 'bdimpera.regioes' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/imoveis?regiao=2] [Tue, 06 Apr 2021 19:37:23 -0300]  Erro: Table 'bdimpera.regioes' doesn't exist
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/apartamento-a-venda] [Tue, 06 Apr 2021 19:47:45 -0300]  Erro: Unknown column 'apartamento' in 'where clause'
+-------------------------------------------------------------------------------------------------------------------------

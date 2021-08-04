@@ -1,0 +1,348 @@
+// Link recuperação
+.link-rec {
+  font-size: 15px;
+  text-align: center;
+}
+
+// Texto opção (Não possui conta? /Já possui conta?)
+.texto.opt {
+  float: left;
+  width: 100%;
+  color: $cor_fonte_clara;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+
+  // MOBILE
+  @include mq(s) {
+    margin-top: 10px;
+  }
+}
+
+// Espaçamento
+.separator {
+  float: left;
+  width: 100%;
+  height: 1px;
+  margin: 10px 0;
+}
+
+// Texto opção login (Facebook)
+.opt-login {
+  position: relative;
+  margin: 20px 0;
+  text-align: center;
+
+  // MOBILE
+  @include mq(s) {
+    margin: 10px 0;
+  }
+
+  span {
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    padding: 0 10px;
+    color: $cor_fonte_clara;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  // Linha
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #ddd;
+  }
+}
+
+// Mensagem de erro DROPZONE
+.dz-msg-error {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: normal;
+  color: $error_color;
+
+  b {
+    font-weight: bold;
+  }
+}
+
+// Formas de pagamento
+.formas-pagamento {
+  margin-top: 10px;
+}
+
+// Opção pagamento
+.forma-pag-item {
+  border: 1px solid red;
+  margin-bottom: 10px;
+  padding: 15px 10px;
+  border-radius: 4px;
+  border: 1px solid $cor_fundo2;
+
+  // Radio button principal
+  .campo-container.cr-container {
+    margin: 0px;
+    padding: 0px;
+
+    .cr-lbl {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    // Ícone
+    span i {
+      font-size: 20px;
+      margin: 0 10px;
+      color: $cor_fonte_escura;
+    }
+  }
+}
+
+// Conteúdo opção pagamento
+.forma-pag-content {
+  display: none;
+  padding-top: 10px;
+
+  // Label nascimento
+  label[for="dia_nasc"] {
+    width: 350px;
+  }
+}
+
+// Campos blocos
+.conta-bloco-content .campo-container {
+  margin-bottom: 20px;
+}
+
+// Título do grupo de campos
+.campo-titulo-grupo {
+  color: $cor_fonte_escura;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+// Campo mapa
+.campo-mapa {
+  height: 250px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid $cor_fundo2;
+}
+
+// Campo características
+.campo-caract {
+  //border: 1px solid red;
+
+  .cr-container {
+    //border: 1px solid blue;
+    margin-bottom: 0px;
+  }
+
+  .cr-lbl {
+    //border: 1px solid green;
+    margin-bottom: 0px;
+  }
+}
+
+// Campo latitude
+.campo-lat {
+  display: none;
+}
+
+// Botão mapa
+.btn-mapa {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+// Formulário fotos
+.form-fotos {
+  margin-top: 10px;
+
+  // MOBILE
+  @include mq(s) {
+    text-align: center;
+  }
+}
+.form-fotos li {
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+
+  // MOBILE
+  @include mq(s) {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    max-width: 130px;
+  }
+
+  figure {
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+    img {
+      transition: 0.3s;
+    }
+  }
+  &:hover figure img {
+    transform: scale(1.1);
+  }
+
+  span {
+    display: block;
+    padding: 10px;
+    border: 1px solid $cor_fundo2;
+    border-top: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 10px;
+    padding: 5px 10px;
+
+    // MOBILE
+    @include mq(s) {
+      width: 100%;
+    }
+
+    &.btn-rem {
+      margin-left: 5px;
+
+      // MOBILE
+      @include mq(s) {
+        margin-left: 0px;
+        margin-top: 5px;
+      }
+    }
+
+    i {
+      margin-right: 0px;
+    }
+  }
+}
+
+// Texto campo (Ajuda)
+.campo-texto {
+  margin-bottom: 10px;
+}
+
+// Busca endereço
+.btn-busca-cep-container {
+  margin-top: 27px;
+
+  // MOBILE
+  @include mq(s) {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .btn {
+    height: 45px;
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+}
+
+.campo-valor-txt {
+  font-weight: normal;
+}
+
+// Ordem das fotos
+.grabbing * {
+  cursor: grabbing !important;
+}
+.form-fotos li.sortable-ghost {
+  border: 2px dashed $cor_primaria !important;
+  background-color: $cor_fundo2;
+
+  figure,
+  span {
+    opacity: 0;
+  }
+}
+.form-fotos li.sortable-drag {
+  opacity: 1 !important;
+}
+
+// Campos disponibilidade visitas
+.dia-disponibilidade {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $cor_fundo2;
+    padding-bottom: 10px;
+  }
+
+  // MOBILE
+  @include mq(s) {
+    flex-wrap: wrap;
+  }
+
+  .campo-container {
+    margin-bottom: 0px;
+  }
+
+  .campo-container:not(.cr-container) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    opacity: 0.5;
+
+    > label {
+      margin-right: 10px;
+      font-weight: 400;
+
+      // MOBILE
+      @include mq(s) {
+        margin-right: 5px;
+        font-size: 13px;
+      }
+    }
+
+    .campo {
+      max-width: 100px;
+      height: 35px;
+      border-radius: 6px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  &.active .campo-container:not(.cr-container) {
+    opacity: 1;
+  }
+
+  &.active .campo-container.cr-container {
+    // MOBILE
+    @include mq(s) {
+      margin-bottom: 5px;
+    }
+  }
+  .campo-container.cr-container .cr-lbl {
+    margin-bottom: 0px;
+  }
+  .campo-container.cr-container .cr-lbl > span {
+    font-weight: 600;
+    color: $cor_fonte_clara;
+  }
+}

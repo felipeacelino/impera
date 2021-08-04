@@ -1,0 +1,20 @@
+User-agent: *
+Allow:
+User-agent: Googlebot
+Allow:
+User-agent: Googlebot-Image
+Allow:
+User-agent: Mediapartners-Google
+Allow:
+User-agent:
+Adsbot-Google
+Allow:
+app/css
+Allow:
+app/js
+Allow:
+app/img
+Allow:
+app/img
+Allow:
+Sitemap: http://www.dominio.com.br/sitemap.xml

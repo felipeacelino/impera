@@ -1,0 +1,12 @@
+- [/imperareal/admin/] [Thu, 18 Feb 2021 10:17:56 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Thu, 18 Feb 2021 10:17:56 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Thu, 18 Feb 2021 10:17:57 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/] [Thu, 18 Feb 2021 10:17:57 -0300]  Erro: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/paginas/paginas_icones/87fe0b7e995567e525116569a02b4e5bd976b3b9/insert/0/25] [Thu, 18 Feb 2021 11:19:58 -0300]  Erro: Incorrect string value: '\xE2\x80\x8BVoc...' for column 'texto' at row 1
+-------------------------------------------------------------------------------------------------------------------------
+- [/imperareal/admin/paginas/paginas_icones/87fe0b7e995567e525116569a02b4e5bd976b3b9/insert/0/25] [Thu, 18 Feb 2021 11:20:09 -0300]  Erro: Incorrect string value: '\xE2\x80\x8BVoc...' for column 'texto' at row 1
+-------------------------------------------------------------------------------------------------------------------------
