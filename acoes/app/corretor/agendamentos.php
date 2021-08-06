@@ -24,12 +24,12 @@ $visitas = new Crud('anuncios_visitas');
 if ($acao == "view") {
 
   // Próximas visitas
-  $sqlVisitas = "SELECT v.*, DATE_FORMAT(v.data, '%H:%i') AS horario, a.codigo, a.slug FROM anuncios_visitas AS v INNER JOIN anuncios AS a ON a.id=v.anuncio_id WHERE v.id_corretor='$idUsuario' AND v.data >= NOW() ORDER BY v.data ASC";
+  $sqlVisitas = "SELECT v.*, DATE_FORMAT(v.data, '%H:%i') AS horario, a.codigo, a.slug FROM anuncios_visitas AS v INNER JOIN anuncios AS a ON a.id=v.anuncio_id WHERE v.id_corretor='$idUsuario' AND origem='user' AND v.data >= NOW() ORDER BY v.data ASC";
   $visitasLista = $visitas->SelectMultiple($sqlVisitas, false, 0);
   $numVisitas = $visitas->totalRegistros();
 
   // Visita antigas
-  $sqlVisitasAntigas = "SELECT v.*, DATE_FORMAT(v.data, '%H:%i') AS horario, a.codigo, a.slug FROM anuncios_visitas AS v INNER JOIN anuncios AS a ON a.id=v.anuncio_id WHERE v.id_corretor='$idUsuario' AND v.data < NOW() ORDER BY v.data DESC";
+  $sqlVisitasAntigas = "SELECT v.*, DATE_FORMAT(v.data, '%H:%i') AS horario, a.codigo, a.slug FROM anuncios_visitas AS v INNER JOIN anuncios AS a ON a.id=v.anuncio_id WHERE v.id_corretor='$idUsuario' AND origem='user' AND v.data < NOW() ORDER BY v.data DESC";
   $visitasAntigasLista = $visitas->SelectMultiple($sqlVisitasAntigas, false, 0);
   $numVisitasAntigas = $visitas->totalRegistros();
 

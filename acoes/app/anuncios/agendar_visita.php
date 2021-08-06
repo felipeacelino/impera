@@ -32,6 +32,7 @@ if (!empty($_POST)) {
     $dados = array(
       'anuncio_id' => Tools::protege($_POST['anuncio_id']),
       'tipo' => Tools::protege($_POST['tipo']),
+      'origem' => "user",
       'nome' => Tools::protege($_POST['nome']),
       'email' => Tools::protege($_POST['email']),
       'telefone' => Tools::protege($_POST['telefone']),

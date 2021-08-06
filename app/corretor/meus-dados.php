@@ -146,17 +146,17 @@ $keywords_site = "";
             <div class="campo-container cr-container" style="margin-bottom: 10px;">
               <label>Áreas de atuação</label><br>
               <label class="cr-lbl">
-                <input type="checkbox" name="atuacao" value="planta" required data-parsley-required-message="Selecione pelo menos uma opção." <?=Tools::checked($user['atuacao_planta'], "1")?>>
+                <input type="checkbox" name="atuacao[]" value="planta" required data-parsley-required-message="Selecione pelo menos uma opção." <?=Tools::checked($user['atuacao_planta'], "1")?>>
                 <i class="checkbox"></i>
                 <span>Imóvel na planta</span>
               </label><br>
               <label class="cr-lbl">
-                <input type="checkbox" name="atuacao" value="avulso" <?=Tools::checked($user['atuacao_avulso'], "1")?>>
+                <input type="checkbox" name="atuacao[]" value="avulso" <?=Tools::checked($user['atuacao_avulso'], "1")?>>
                 <i class="checkbox"></i>
                 <span>Imóvel avulso</span>
               </label><br>
               <label class="cr-lbl">
-                <input type="checkbox" name="atuacao" value="locacao" <?=Tools::checked($user['atuacao_locacao'], "1")?>>
+                <input type="checkbox" name="atuacao[]" value="locacao" <?=Tools::checked($user['atuacao_locacao'], "1")?>>
                 <i class="checkbox"></i>
                 <span>Imóvel para locação</span>
               </label>
@@ -170,7 +170,7 @@ $keywords_site = "";
               </label><br>
               <? foreach ($regioesAtuacaoLista1 as $tipo1) { ?>
                 <label class="cr-lbl">
-                  <input type="checkbox" name="regioes1" value="<?=$tipo1['id']?>" data-parsley-maxcheck="2" required data-parsley-required-message="Selecione pelo menos uma opção.">
+                  <input type="checkbox" name="regioes1[]" value="<?=$tipo1['id']?>" data-parsley-maxcheck="2" required data-parsley-required-message="Selecione pelo menos uma opção." <? if (in_array($tipo1['id'], $regioesAtuais)) { ?> checked <? } ?>>
                   <i class="checkbox"></i>
                   <span><b><?=$tipo1['codigo']?>:</b> <?=$tipo1['descricao']?></span>
                 </label><br>
@@ -184,7 +184,7 @@ $keywords_site = "";
               </label><br>
               <? foreach ($regioesAtuacaoLista2 as $tipo2) { ?>
                 <label class="cr-lbl">
-                  <input type="checkbox" name="regioes2" value="<?=$tipo2['id']?>" data-parsley-maxcheck="2" required data-parsley-required-message="Selecione pelo menos uma opção.">
+                  <input type="checkbox" name="regioes2[]" value="<?=$tipo2['id']?>" data-parsley-maxcheck="2" required data-parsley-required-message="Selecione pelo menos uma opção." <? if (in_array($tipo2['id'], $regioesAtuais)) { ?> checked <? } ?>>
                   <i class="checkbox"></i>
                   <span><b><?=$tipo2['codigo']?>:</b> <?=$tipo2['descricao']?></span>
                 </label><br>

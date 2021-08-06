@@ -9,6 +9,9 @@ if ($param1 === "proprietario" && ($param2 == "criar-conta" || $param2 == "entra
 if ($param1 === "corretor" && ($param2 == "criar-conta" || $param2 == "entrar" || $param2 == "cadastrar-senha")) {
   $pagInst = "para-voce-corretor";
 }
+if ($param1 === "afiliado" && ($param2 == "criar-conta" || $param2 == "entrar" || $param2 == "cadastrar-senha")) {
+  $pagInst = "para-voce-afiliado";
+}
 
 // Página de ajuda dentro da área restrita
 if ($param1 === "proprietario" && $param2 === "ajuda") {

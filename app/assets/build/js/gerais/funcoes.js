@@ -111,9 +111,11 @@ function rangeInvalido(datasBloqueadas, datasSelecionadas) {
 
 // Desabilida o clique do botão direito do mouse
 function disableRightClick() {
-  $(window).on("contextmenu", function (ev) {
-    ev.preventDefault();
-  });
+  if ($(".btn-copy-link").length === 0) {
+    $(window).on("contextmenu", function (ev) {
+      ev.preventDefault();
+    });
+  }
 }
 disableRightClick();
 

@@ -14,6 +14,7 @@ if ($usuario->logado()) {
   if (!$usuario->cadastroCompleto() && $param2 != "meus-dados") {
     Tools::redireciona(URL."corretor/meus-dados");
   }
+  $user['link_afiliado'] = URL."?affiliate=".base64_encode($user['id'])."&type=c";
 } 
 // Redireciona para a página de login
 else {

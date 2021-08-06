@@ -26,9 +26,9 @@ $keywords_site = "";
     <div class="conta-content">
 
       <div class="conta-topo">
-        <h1 class="conta-titulo"><?=$titulo?></h1>
+        <h1 class="conta-titulo"><?=$cliente['nome']?> <i class="fas fa-chevron-right"></i> <?=$titulo?></h1>
         <div class="conta-topo-btns">
-          <a href="<?=URL?>corretor/documentos" class="btn btn-sm btn-primario"><i class="fas fa-angle-left"></i> Voltar</a>
+          <a href="<?=URL?>corretor/documentos/<?=$cliente['id']?>" class="btn btn-sm btn-primario"><i class="fas fa-angle-left"></i> Voltar</a>
         </div>
       </div>
 
@@ -83,6 +83,7 @@ $keywords_site = "";
         <div class="conta-base-btns">
           <input type="hidden" id="acao-arquivo" name="acao" value="<?=$acao?>">
           <input type="hidden" name="id_arquivo" value="<?=$arquivo['id']?>">
+          <input type="hidden" name="id_cliente" value="<?=$cliente['id']?>">
           <button type="submit" id="btn-form-arquivo" class="btn btn-sm btn-primario"><?=$botao?></button>
         </div>
 

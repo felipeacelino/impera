@@ -171,11 +171,11 @@ $statusPagamentos = array(
 // Status visitas
 $statusVisitas = array(
   '0' => array(
-    'titulo' => "Cancelada",
+    'titulo' => "Cancelado",
     'class' => "error"
   ),
   '1' => array(
-    'titulo' => "Confirmada",
+    'titulo' => "Confirmado",
     'class' => "success"
   ),
   '2' => array(
@@ -185,7 +185,27 @@ $statusVisitas = array(
   '3' => array(
     'titulo' => "Reagendar",
     'class' => "info"
+  ),
+  '4' => array(
+    'titulo' => "Recusado",
+    'class' => "error"
   )
+);
+
+// Status leads
+$statusLeads = array(
+  '0' => array(
+    'titulo' => "Sem interesse",
+    'class' => "error"
+  ),
+  '1' => array(
+    'titulo' => "Agendado",
+    'class' => "success"
+  ),
+  '2' => array(
+    'titulo' => "Pendente",
+    'class' => "warning"
+  ),
 );
 
 // Tipos visita

@@ -26,9 +26,16 @@ $keywords_site = "";
     <div class="conta-content">
 
       <div class="conta-topo">
+        <h1 class="conta-titulo"><?=$cliente['nome']?> <i class="fas fa-chevron-right"></i> Documentos</h1>
+        <div class="conta-topo-btns">
+          <a href="<?=URL?>corretor/clientes" class="btn btn-sm"><i class="fas fa-angle-left"></i> Voltar</a>
+        </div>
+      </div>
+
+      <div class="conta-topo">
         <h1 class="conta-titulo">Documentos Enviados</h1>
         <div class="conta-topo-btns">
-          <a href="<?= URL ?>corretor/cadastro-arquivo/insert" class="btn btn-sm btn-primario"><i class="fas fa-plus"></i> Enviar Documento</a>
+          <a href="<?= URL ?>corretor/cadastro-arquivo/insert/<?=$cliente['id']?>" class="btn btn-sm btn-primario"><i class="fas fa-plus"></i> Enviar Documento</a>
         </div>
       </div>
 
@@ -176,12 +183,12 @@ $keywords_site = "";
     <!-- FOOTER -->
     <? include(APP_PATH . '/corretor/estrutura/footer.php'); ?>
 
-    <? if ($param3 == "edit-success") { ?>
+    <? if ($param4 == "edit-success") { ?>
       <script>
         showAlert('Sucesso', 'Arquivo atualizado com sucesso.', 'success');
       </script>
     <? } ?>
-    <? if ($param3 == "cad-success") { ?>
+    <? if ($param4 == "cad-success") { ?>
       <script>
         showAlert('Sucesso', 'Arquivo enviado com sucesso.', 'success');
       </script>

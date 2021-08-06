@@ -14,6 +14,7 @@
 
   $("#chat-anexo").on("change", function () {
     if ($(this).val() != "") {
+      $(".chat-input-anexo").addClass("active");
       $("#chat-mensagem").prop("required", false).parsley().reset();
     }
   });

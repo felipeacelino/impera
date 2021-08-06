@@ -31,7 +31,7 @@
           data = JSON.parse(data);
           if (data.status == "ok") {
             $("#id_remove").val("");
-            showAlert("Sucesso", "Solicitação enviada com sucesso.", "success");
+            showAlert("Sucesso", "Alteração realizada com sucesso.", "success");
             setTimeout(() => {
               location.reload();
             }, 2000);

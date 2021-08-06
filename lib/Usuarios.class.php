@@ -31,6 +31,11 @@ class Usuarios {
         $this->pagina = "cliente";
         $this->tabela_mensagens = "cliente_mensagens";
       break;
+      case "afiliado":
+        $this->tipoCad = "Afiliado";
+        $this->pagina = "afiliado";
+        $this->tabela_mensagens = "afiliados_mensagens";
+      break;
       case "proprietario":
         $this->tipoCad = "Proprietário";
         $this->pagina = "proprietario";
@@ -40,6 +45,7 @@ class Usuarios {
         $this->tipoCad = "Corretor";
         $this->pagina = "corretor";
         $this->tabela_mensagens = "corretores_mensagens";
+        $this->crudRegioesAtuacao = new Crud("corretores_regioes_atuacao");
       break;
     }
   }
@@ -188,12 +194,40 @@ class Usuarios {
     }
     // Corretores
     if ($this->ambiente == "corretor") {
+      $dados['como_conheceu'] = Tools::protege($dados_update['como_conheceu']);
+      $dados['atuacao_planta'] = array_search("planta", $dados_update['atuacao']) !== FALSE ? 1 : 0;
+      $dados['atuacao_avulso'] = array_search("avulso", $dados_update['atuacao']) !== FALSE ? 1 : 0;
+      $dados['atuacao_locacao'] = array_search("locacao", $dados_update['atuacao']) !== FALSE ? 1 : 0;
+      $dados['nascimento'] = Tools::protege($dados_update['nascimento']);
+      $dados['razao_social'] = Tools::protege($dados_update['razao_social']);
+      $dados['rg'] = Tools::protege($dados_update['rg']);
       $dados['creci'] = Tools::protege($dados_update['creci']);
       $dados['banco'] = Tools::protege($dados_update['banco']);
       $dados['agencia'] = Tools::protege($dados_update['agencia']);
       $dados['conta'] = Tools::protege($dados_update['conta']);
       $dados['operacao'] = Tools::protege($dados_update['operacao']);
       $dados['chave_pix'] = Tools::protege($dados_update['chave_pix']);
+      $dados['domingo_status'] = $dados_update['dias_trabalho'] && array_search("domingo", $dados_update['dias_trabalho']) !== FALSE ? 1 : 0;
+      $dados['segunda_status'] = $dados_update['dias_trabalho'] && array_search("segunda", $dados_update['dias_trabalho']) !== FALSE ? 1 : 0;
+      $dados['terca_status'] = $dados_update['dias_trabalho'] && array_search("terca", $dados_update['dias_trabalho']) !== FALSE ? 1 : 0;
+      $dados['quarta_status'] = $dados_update['dias_trabalho'] && array_search("quarta", $dados_update['dias_trabalho']) !== FALSE ? 1 : 0;
+      $dados['quinta_status'] = $dados_update['dias_trabalho'] && array_search("quinta", $dados_update['dias_trabalho']) !== FALSE ? 1 : 0;
+      $dados['sexta_status'] = $dados_update['dias_trabalho'] && array_search("sexta", $dados_update['dias_trabalho']) !== FALSE ? 1 : 0;
+      $dados['sabado_status'] = $dados_update['dias_trabalho'] && array_search("sabado", $dados_update['dias_trabalho']) !== FALSE ? 1 : 0;
+      $dados['domingo_inicio'] = Tools::protege($dados_update['domingo_inicio']);
+      $dados['domingo_fim'] = Tools::protege($dados_update['domingo_fim']);
+      $dados['segunda_inicio'] = Tools::protege($dados_update['segunda_inicio']);
+      $dados['segunda_fim'] = Tools::protege($dados_update['segunda_fim']);
+      $dados['terca_inicio'] = Tools::protege($dados_update['terca_inicio']);
+      $dados['terca_fim'] = Tools::protege($dados_update['terca_fim']);
+      $dados['quarta_inicio'] = Tools::protege($dados_update['quarta_inicio']);
+      $dados['quarta_fim'] = Tools::protege($dados_update['quarta_fim']);
+      $dados['quinta_inicio'] = Tools::protege($dados_update['quinta_inicio']);
+      $dados['quinta_fim'] = Tools::protege($dados_update['quinta_fim']);
+      $dados['sexta_inicio'] = Tools::protege($dados_update['sexta_inicio']);
+      $dados['sexta_fim'] = Tools::protege($dados_update['sexta_fim']);
+      $dados['sabado_inicio'] = Tools::protege($dados_update['sabado_inicio']);
+      $dados['sabado_fim'] = Tools::protege($dados_update['sabado_fim']);
     }
     // Atualiza a senha caso seja enviada
     if ($dados_update['senha'] != "") {
@@ -202,6 +236,26 @@ class Usuarios {
     // Atualiza o usuário no banco
     $operacao = $this->crud->Update($dados, "WHERE id=$idUser");
     if ($operacao) {
+      // Corretores (Regiões)
+      if ($this->ambiente == "corretor") {
+        $delAtuais = $this->crudRegioesAtuacao->Delete("0", "WHERE corretor_id=$idUser", array(), false, false, "");
+        if ($delAtuais) {
+          $arrRegioes = array();
+          if ($dados_update['regioes1'] && !empty($dados_update['regioes1'])) {
+            $arrRegioes = array_merge($arrRegioes, $dados_update['regioes1']);
+          }
+          if ($dados_update['regioes2'] && !empty($dados_update['regioes2'])) {
+            $arrRegioes = array_merge($arrRegioes, $dados_update['regioes2']);
+          }
+          foreach ($arrRegioes as $regiao) {
+            $dadosRegiao = array(
+              'corretor_id' => $idUser,
+              'regiao_id' => $regiao
+            );
+            $this->crudRegioesAtuacao->Insert($dadosRegiao);
+          }
+        }
+      }
       // Upload de imagem (Foto)
 			$path = IMG_PATH."/".$this->tabela."/".$idUser;
 			$upload = new Uploads($this->tabela);

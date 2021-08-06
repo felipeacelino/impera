@@ -26,7 +26,7 @@ $whitelistPags = array(
   "sobre",
   "termos-de-uso",
   "videos",  
-  "cliente",  
+  "cliente",
   "proprietario",  
   "corretor",  
   "afiliado",  
@@ -45,4 +45,7 @@ $whitelistPags = array(
   "visitas", 
   "boletos", 
   "agendamentos", 
+  "clientes", 
+  "agendamentos-imobiliaria", 
+  "leads", 
 );

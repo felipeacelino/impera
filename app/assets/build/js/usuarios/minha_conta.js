@@ -217,14 +217,14 @@ $(".link-restrito").on("click", function (ev) {
 });
 
 // Regiões de atuação
-$('input[name="atuacao"]').on("change", handleRegioesAtuacao);
-if ($('input[name="atuacao"]').length > 0) {
+$('input[name="atuacao[]"]').on("change", handleRegioesAtuacao);
+if ($('input[name="atuacao[]"]').length > 0) {
   handleRegioesAtuacao();
 }
 function handleRegioesAtuacao() {
   if (
-    $('input[name="atuacao"][value="avulso"]').is(":checked") ||
-    $('input[name="atuacao"][value="locacao"]').is(":checked")
+    $('input[name="atuacao[]"][value="avulso"]').is(":checked") ||
+    $('input[name="atuacao[]"][value="locacao"]').is(":checked")
   ) {
     $(".regioes1").show();
     $(".regioes1").find("input").prop("disabled", false).prop("required", true);
@@ -232,7 +232,7 @@ function handleRegioesAtuacao() {
     $(".regioes1").hide();
     $(".regioes1").find("input").prop("disabled", true).prop("required", false);
   }
-  if ($('input[name="atuacao"][value="planta"]').is(":checked")) {
+  if ($('input[name="atuacao[]"][value="planta"]').is(":checked")) {
     $(".regioes2").show();
     $(".regioes2").find("input").prop("disabled", false).prop("required", true);
   } else {
@@ -240,3 +240,55 @@ function handleRegioesAtuacao() {
     $(".regioes2").find("input").prop("disabled", true).prop("required", false);
   }
 }
+
+// Leads
+$(".status-lead").on("change", handleStatusLead);
+function handleStatusLead() {
+  const statusLead = $(".status-lead").val();
+  if (statusLead == "1") {
+    $(".sem-interesse").hide();
+    $(".com-interesse").show();
+    $(".sem-interesse")
+      .find("input, select")
+      .prop("disabled", true)
+      .prop("required", false);
+    $(".com-interesse").find("input, select").prop("disabled", false);
+    $(".com-interesse")
+      .find("input[data-required], select[data-required]")
+      .prop("required", true);
+  } else if (statusLead == "0") {
+    $(".sem-interesse").show();
+    $(".com-interesse").hide();
+    $(".sem-interesse").find("input, select").prop("disabled", false);
+    $(".sem-interesse")
+      .find("input[data-required], select[data-required]")
+      .prop("required", true);
+    $(".com-interesse")
+      .find("input, select")
+      .prop("disabled", true)
+      .prop("required", false);
+  } else {
+    $(".sem-interesse").hide();
+    $(".com-interesse").hide();
+    $(".sem-interesse")
+      .find("input, select")
+      .prop("disabled", true)
+      .prop("required", false);
+    $(".com-interesse")
+      .find("input, select")
+      .prop("disabled", true)
+      .prop("required", false);
+  }
+}
+
+// Copia o link de afiliados
+$(".btn-copy-link").on("click", function (ev) {
+  ev.preventDefault();
+  copyToClipboard($("#link-afiliado").val());
+  closeModal("modal-link-afiliado");
+  showAlert(
+    "Copiado!",
+    "Seu link de afiliado foi copiado, agora você já pode compartilhar com seus clientes e proprietários.",
+    "success"
+  );
+});

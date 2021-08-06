@@ -53,6 +53,14 @@ if (!$manutencao) {
       include('app/nao-encontrado.php');
     }
   }
+  // Páginas afiliado
+  else if ($param1 == "afiliado") { 
+    if (file_exists('app/afiliado/'.$param2.'.php') && in_array($param2, $whitelistPags)) {
+      include('app/afiliado/'.$param2.'.php');
+    } else {
+      include('app/nao-encontrado.php');
+    }
+  }
   // Demais páginas
   else if (file_exists('app/'.$param1.'.php') && in_array($param1, $whitelistPags)) {
     include('app/'.$param1.'.php');

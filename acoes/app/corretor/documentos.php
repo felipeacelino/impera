@@ -55,7 +55,15 @@ if (!isset($_POST['acao'])) {
 //==================================================//
 if ($acao == "view") {
 
-  $filtro = "WHERE id > 0 AND id_usuario = $idUser";
+  $idCliente = $param3;
+
+  $filtro = "WHERE id > 0 AND id_usuario = $idUser AND id_cliente = $idCliente";
+  
+  $cliente = $arquivos->SelectSingle("SELECT * FROM corretores_clientes WHERE id_usuario = $idUser AND id = $idCliente");
+
+  if ($cliente == "") {
+    Tools::redireciona(URL."corretor/clientes");
+  }
 
   // TOTAL DE DOCUMENTO (RECEBIDOS)
   $totalArquivosRecebidos = $arquivos->SelectTotalSQL("SELECT id FROM $tabela $filtro AND status = 1 AND origem = 'enviados_admin'");
@@ -75,12 +83,17 @@ if ($acao == "view") {
 //==================================================//
 if ($acao == "insert") {
 
+  $idCliente = $param4;
+
+  $cliente = $arquivos->SelectSingle("SELECT * FROM corretores_clientes WHERE id_usuario = $idUser AND id = $idCliente");
+
   // REALIZA O CADASTRO
   if (!empty($_POST)) {
 
     // DADOS
     $dados = array(
       'id_usuario' => $idUser,
+      'id_cliente' => $_POST['id_cliente'],
       'imovel_cod' => $_POST['imovel_cod'],
       'tipo' => $_POST['tipo'],
       'origem' => 'recebidos_admin',
@@ -114,7 +127,7 @@ if ($acao == "insert") {
 
       $email->Enviar();
 
-      $retorno = URL . "corretor/documentos/cad-success";
+      $retorno = URL . "corretor/documentos/".$_POST['id_cliente']."/cad-success";
 
       $arr_retorno = array(
         'status' => 'ok',
@@ -178,7 +191,7 @@ if ($acao == "update") {
 
       $email->Enviar();
 
-      $retorno = URL . "corretor/documentos/edit-success";
+      $retorno = URL . "corretor/documentos/".$_POST['id_cliente']."/edit-success";
 
       $arr_retorno = array(
         'status' => 'ok',

@@ -51,6 +51,9 @@
   //word-wrap: break-word !important;
   @include truncate(100%);
 }
+.conta-lateral-btn {
+  margin-top: 10px;
+}
 
 // Menu links
 .conta-lateral-menu {
@@ -66,7 +69,7 @@
 }
 .conta-lateral-menu a {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
   width: 100%;
   padding: 12px 19px;
   border-top-left-radius: 25px;
@@ -161,4 +164,11 @@
 .cd-dropdown-header .conta-lateral-header {
   border-bottom: none;
   padding: 0px;
+
+  .conta-lateral-btn {
+    .btn {
+      height: auto;
+      line-height: 100%;
+    }
+  }
 }

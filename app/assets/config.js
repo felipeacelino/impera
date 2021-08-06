@@ -44,6 +44,7 @@ module.exports = function (project) {
           project + "/app/assets/build/js/anuncios/detalhe.js",
           project + "/app/assets/build/js/anuncios/agendamento.js",
           // Usuários
+          project + "/app/assets/build/js/usuarios/registros.js",
           project + "/app/assets/build/js/usuarios/login.js",
           project + "/app/assets/build/js/usuarios/cadastro.js",
           project + "/app/assets/build/js/usuarios/recuperacao.js",

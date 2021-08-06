@@ -174,7 +174,7 @@ $keywords_site = "";
             <button type="button" class="btn btn-sm modal-close" data-modal="modal-confirm">Cancelar</button>
           </div>  
           <div class="modal-btn right">	
-            <form id="form-reagenda-visita" action="<?=URL?>acoes/app/corretor/visitas.php" method="post">
+            <form id="form-reagenda-visita" action="<?=URL?>acoes/app/corretor/agendamentos.php" method="post">
               <input type="hidden" name="acao" value="reagendar">
               <input type="hidden" name="id_visita" id="id_remove" required>
               <button type="submit" class="btn btn-sm btn-primario">Reagendar</button>
@@ -201,7 +201,7 @@ $keywords_site = "";
             <button type="button" class="btn btn-sm modal-close" data-modal="modal-confirm2">Cancelar</button>
           </div>  
           <div class="modal-btn right">	
-            <form id="form-confirmar-visita" action="<?=URL?>acoes/app/corretor/visitas.php" method="post">
+            <form id="form-confirmar-visita" action="<?=URL?>acoes/app/corretor/agendamentos.php" method="post">
               <input type="hidden" name="acao" value="confirmar">
               <input type="hidden" name="id_visita" id="id_confirma" required>
               <button type="submit" class="btn btn-sm btn-primario">Confirmar</button>

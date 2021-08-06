@@ -254,6 +254,10 @@
     background: rgba(#000, 0.1);
   }
 
+  &.active {
+    background-color: $cor_secundaria;
+  }
+
   input {
     display: none;
   }
